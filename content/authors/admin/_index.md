@@ -36,7 +36,7 @@ education:
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
 - icon: fa-youtube
-  icon_pack: fas
+  icon_pack: fab
   link: https://www.youtube.com/channel/UCAri7pV6nwKFUvC4wFIRQYA
 - icon: github
   icon_pack: fab
