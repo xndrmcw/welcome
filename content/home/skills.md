@@ -31,12 +31,12 @@ feature:
   icon: dumbbell
   icon_pack: fas
   name: Weightlifting
- - description: 90% Reading
-   icon: book
-   icon_pack: fas
- - description: 20% Bicycling Along the Charles
-   icon: biking
-   icon_pack: fas
+- description: 90% Reading
+  icon: book
+  icon_pack: fas
+- description: 20% Bicycling Along the Charles
+  icon: biking
+  icon_pack: fas
 
 
 # Uncomment to use emoji icons.
