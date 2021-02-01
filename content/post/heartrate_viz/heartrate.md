@@ -22,10 +22,15 @@ authors:
 
 tags:
 - Visualization
+
+image:
+
 ---
 
-<iframe width="700" height="600" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+<iframe width="700" height="600" marginwidth="1000" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+
 ## Thanks for checking out my second post!
+
 It's not particularly difficult to create visualizations, but, from what I hear, it's pretty tricky to make good ones! That being said, I think this one isn't half bad! It pretty clearly illustrates what it's supposed to, it's not particularly bulky. You might argue that using a scatterplot for heartrate is weird, but I really like being able to mouse over the individual points.
 
 This graph, surprisingly, was a bit of a force to get together. I'll walk through the steps I had to take to get to this point below! Even though there were some obstacles, it was a blast, and I recommend it to anyone looking to create a fun little viz project.
