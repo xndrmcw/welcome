@@ -39,7 +39,7 @@ experience:
     location: Whererever!
     date_start: '2017-09-01'
     date_end: ''
-    description: |2-
+    description: |
     - I'm conducting independent research on topics like computer vision and visualization at the moment.
     - Packages I use: cv2, plotly, dash
 ---
