@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alexander McWIlliams
+title: Alexander McWilliams
 
 # Is this the primary user of the site?
 superuser: true
@@ -35,7 +35,7 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: youtube-square
+- icon: youtube
   icon_pack: fas
   link: https://www.youtube.com/channel/UCAri7pV6nwKFUvC4wFIRQYA
 - icon: github
