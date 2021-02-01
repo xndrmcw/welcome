@@ -28,7 +28,7 @@ experience:
     location: Waltham
     date_start: '2020-09-01'
     date_end: ''
-    description: |2-
+    description: |
      -	Developed a comprehensive research project focused on text analysis & natural language processing.
      -	Analyzed reddit.com comment data with R-Studio packages textmatch and quanteda to gauge sentiment based on presumed user gender. Attempting to predict upvote/downvote ratio using summary statistics.
 
