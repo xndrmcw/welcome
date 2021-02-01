@@ -26,7 +26,7 @@ feature:
   name: Statistics
 - description: 90% Pythonic
   icon: python
-  icon_pack: fas
+  icon_pack: fab
   name: Python
 - description: 30% Bulking
   icon: dumbbell
