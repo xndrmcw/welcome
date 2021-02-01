@@ -25,7 +25,7 @@ tags:
 ---
 
 <iframe width="700" height="600" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
-
+## Thanks for checking out my second post!
 It's not particularly difficult to create visualizations, but, from what I hear, it's pretty tricky to make good ones! That being said, I think this one isn't half bad! It pretty clearly illustrates what it's supposed to, it's not particularly bulky. You might argue that using a scatterplot for heartrate is weird, but I really like being able to mouse over the individual points.
 
 This graph, surprisingly, was a bit of a force to get together. I'll walk through the steps I had to take to get to this point below! Even though there were some obstacles, it was a blast, and I recommend it to anyone looking to create a fun little viz project.
@@ -50,4 +50,4 @@ As for the actual coding - I used Python! Python is popular for data viz, and, i
 
 Plotly allows you to export your graphs as jupyter notebooks and standalone HTML files, but it also allows for online hosting through the [**Chart Studio Cloud Platform!**](https://chart-studio.plotly.com/). I might make a post that walks line by line through my code to create this visualization later, when I get more comfortable with using Hugo (the GitHub-oriented (is that a thing? GitHub-oriented?? whatever) website builder I'm using).
 
-Anyway, plotly was an easy package to use, and the cloud platform was great! It allowed me to export my visualization as an HTML iframe, which I easily popped into the Hugo config files. I have very little experience with HTML, but learning how to format this exact blog post gave me a nice crash-course. 
+Anyway, plotly was an easy package to use, and the cloud platform was great! It allowed me to export my visualization as an HTML iframe, which I easily popped into the Hugo config files. I have very little experience with HTML, but learning how to format this exact blog post gave me a nice crash-course.
