@@ -1,5 +1,5 @@
 ---
-title: Welcome to my virtual portfolio! It's a work in progress!
+title: I'm Alexander, thanks for coming!
 
 
 # Link this post with a project
