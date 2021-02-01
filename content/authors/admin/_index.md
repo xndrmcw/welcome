@@ -14,7 +14,7 @@ organizations:
   url: https://www.bentley.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research at school focuses on Natural Language Processing and Machine Learning, but I really just like to use programming to have fun! 
+bio: My research at school focuses on Natural Language Processing and Machine Learning, but I really love building fun projects with the bits and pieces of programming that I learn! 
 
 # Interests to show in About widget
 interests:
