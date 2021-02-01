@@ -24,4 +24,4 @@ tags:
 - Visualization
 ---
 
-{{< heartrate heartrateid="~alexandermcw/1.embed" >}}
+{{< heartrate.html >}}
