@@ -39,6 +39,6 @@ experience:
     location: Wherever it takes me!
     date_start: '2017-09-01'
     date_end: ''
-    description: I'm conducting independent research on topics like computer vision and visualization at the moment. Packages I've been using lately include; cv2, plotly, dashs
+    description: I'm conducting independent research on topics like computer vision and visualization at the moment. Packages I've been using lately include; cv2, plotly, & dash
 
 ---
