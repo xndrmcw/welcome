@@ -24,7 +24,4 @@ tags:
 - Visualization
 ---
 
-<div>
-    <a href="https://plotly.com/~alexandermcw/1/?share_key=YvlkuPfQkm9D3kx3dA2pzB" target="_blank" title="heartrate_gradient_scatter.py" style="display: block; text-align: center;"><img src="https://plotly.com/~alexandermcw/1.png?share_key=YvlkuPfQkm9D3kx3dA2pzB" alt="heartrate_gradient_scatter.py" style="max-width: 100%;width: 100%;"  width="100%" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-    <script data-plotly="alexandermcw:1" sharekey-plotly="YvlkuPfQkm9D3kx3dA2pzB" src="https://plotly.com/embed.js" async></script>
-</div>
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
