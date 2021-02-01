@@ -7,7 +7,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 40
+weight: 1
 
 title: Experience
 subtitle:
@@ -22,24 +22,24 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Honors Capstone Researcher
+    company: Bentley University
     company_url: ''
-    location: California
-    date_start: '2017-01-01'
+    location: Waltham
+    date_start: '2020-09-01'
     date_end: ''
     description: |2-
-        Responsibilities include:
+     -	Developed a comprehensive research project focused on text analysis & natural language processing.
+     -	Analyzed reddit.com comment data with R-Studio packages textmatch and quanteda to gauge sentiment based on presumed user gender. Attempting to predict upvote/downvote ratio using summary statistics.
+
         
-        * Analysing
-        * Modelling
-        * Deploying
-        
-  - title: Professor
-    company: University X
+  - title: Independent Researcher
+    company: Whatever room I'm sitting in at the time!
     company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Whererever!
+    date_start: '2017-09-01'
+    date_end: ''
+    description: |2-
+    - I'm conducting independent research on topics like computer vision and visualization at the moment.
+    - Packages I use: cv2, plotly, dash
 ---
