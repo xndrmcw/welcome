@@ -41,5 +41,5 @@ experience:
     date_end: ''
     description: |
     - I'm conducting independent research on topics like computer vision and visualization at the moment.
-    - Packages I use: cv2, plotly, dash
+    - Packages I've been using lately include; cv2, plotly, dash
 ---
