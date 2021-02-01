@@ -24,4 +24,4 @@ tags:
 - Visualization
 ---
 
-<iframe width="600" height="500" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+<iframe width="700" height="600" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
