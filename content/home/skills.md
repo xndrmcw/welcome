@@ -27,6 +27,7 @@ feature:
 - description: 90% Pythonic
   icon: python
   icon_pack: fas
+  name: Python
 - description: 30% Bulking
   icon: dumbbell
   icon_pack: fas
@@ -34,9 +35,11 @@ feature:
 - description: 90% Reading
   icon: book
   icon_pack: fas
+  name: Reading
 - description: 20% Bicycling Along the Charles
   icon: biking
   icon_pack: fas
+  name: Biking
 
 
 # Uncomment to use emoji icons.
