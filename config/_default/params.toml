@@ -97,7 +97,7 @@ address = {street = "175 Forest Street", city = "Waltham", region = "MA", postco
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "42.3857", longitude = "-71.2217"}, 
+coordinates = {latitude = "42.3857", longitude = "-71.2217"}
 
 # Directions for visitors to locate you.
 directions = "Let's just meet through zoom - it IS a pandemic, after all!"
