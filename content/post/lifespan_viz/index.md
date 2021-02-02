@@ -47,9 +47,7 @@ tags: ['Data Visualization']
 
 I haven't done much visualization work in R before, but when the opportunity lands right in my lap, it feels silly to pass it up! Isabella Benabaye wrote a post on how to install custom CSS elements and themes into the hugo academic theme, and I was really impressed by the style of her website, as well as the elements of that post. I kept looking through her website, and I was so impressed! Her visualizations are some of the most gorgeous I've ever seen - some people really just know how to paint a picture. Of course, I want as many people to see her website as possible, so here it is!
 
-><p style="color:white;">
-<a href="https://isabella-b.com/">Isabella Benabaye!</a>
-</p>
+<p style="color:white;"><a href="https://isabella-b.com/">Isabella Benabaye!</a></p>
 
 Anyway, I finished reading that post about hugo, and started perusing around her website. She's got a boatload of awesome projects and code to show you exactly how to create your own version! I saw her [life span waffle graph](https://isabella-b.com/blog/my-life-in-months/) and I thought it looked awesome, so I gave it a glance. It looked pretty straightforward, so I tried my hand at it!
 
@@ -65,11 +63,9 @@ In all honesty, there's a good reason why I decided to create my own visualizati
 
 This graph, to me, serves as a warning and a motivator. I'm happy with the person I am today as well as the choices that I've made, but those choices *are* in the past, whether I like them all or not.
 
-><p style="color:#F9C59F;">All of this</p>
+><p style="color:#F9C59F;font-size: 40px;">ALL of this is behind me!</p>
 
-![viz](/media/lifespan_viz_photos/gone.png)
-
-><p style="color:#F9C59F;">is behind me!</p>
+<img src="/media/lifespan_viz_photos/gone.png" width="80%">
 
 
 [**Check out Neil Ricci's Pulse Watch tool!**](https://iccir919.github.io/pulseWatch/public/index.html)
