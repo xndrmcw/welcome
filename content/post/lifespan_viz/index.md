@@ -4,7 +4,7 @@ title: Mortality is scary! Here's a visualization inspired by Isabella Benabaye 
 image:
   focal_point: ""
   placement: 2
-  preview_only: false
+  preview_only: True
 
 # Link this post with a project
 projects: []
@@ -43,6 +43,8 @@ tags: ['Data Visualization']
 
 ---
 
+<img src="/media/lifespan_viz_photos/life_in_months_final.png" height="60%">
+
 ## Welcome to my third post! I'm not sure how sustainable it is to keep numbering the posts, but oh well.
 
 I haven't done much visualization work in R before, but when the opportunity lands right in my lap, it feels silly to pass it up! Isabella Benabaye wrote a post on how to install custom CSS elements and themes into the hugo academic theme, and I was really impressed by the style of her website, as well as the elements of that post. I kept looking through her website, and I was so impressed! Her visualizations are some of the most gorgeous I've ever seen - some people really just know how to paint a picture. Of course, I want as many people to see her website as possible, so here it is!
@@ -63,7 +65,7 @@ In all honesty, there's a good reason why I decided to create my own visualizati
 
 This graph, to me, serves as a warning and a motivator. I'm happy with the person I am today as well as the choices that I've made, but those choices *are* in the past, whether I like them all or not.
 
-><p style="color:#F9C59F;font-size: 40px;">ALL of this is behind me!</p>
+><p style="color:#F9C59F;font-size: 40px;">All of the stuff below is behind me! I'll miss it. Even the awkawrd bits.</p>
 
 <img src="/media/lifespan_viz_photos/gone.png" width="80%">
 
