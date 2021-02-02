@@ -25,7 +25,6 @@ authors:
 
 tags: ['Data Visualization']
 
-tags = ['Data Visualization']
 
 ---
 
