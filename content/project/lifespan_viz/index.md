@@ -5,6 +5,9 @@ tags:
 - Data Visualization
 date: "2021-02-02T00:00:00Z"
 
+image:
+  preview_only: true
+
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
@@ -27,13 +30,13 @@ links:
 #slides: example
 ---
 
-## This is the data visualization project page associated with my blog post, which you can find [here.](https://xndrmcw.netlify.app/post/lifespan_viz/)
+## This is the data visualization project page associated with my blog post, which you can find [here.](https://xndrmcw.netlify.app/post/lifespan_viz/) At the bottom of this page, you can find my code.
 
 <img src="/media/lifespan_viz_photos/life_in_months_final.png" height="60%">
 
 Here's my code! There are some packages that are required that aren't up top - I apologize, things got a little messy. If you're reading this and try it for yourself and something breaks, let me know! I can help.
 
-        #Just to emphasize, this code is 90% Isabella Benabaye's! She's the real hero. 
+        #Just to emphasize, this code is 90% Isabella Benabaye's! She's the real hero.
         library(tidyverse)
         library(lubridate)
         library(waffle)

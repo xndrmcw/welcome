@@ -1,5 +1,5 @@
 ---
-title: Mortality is scary! Here's a visualization inspired by Isabella Benabaye to help confront the fear.
+title: Mortality is scary! Here's a visualization inspired by Isabella Benabaye, and some words by me to help confront the fear.
 
 image:
   focal_point: ""
