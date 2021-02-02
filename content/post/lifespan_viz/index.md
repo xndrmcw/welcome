@@ -45,21 +45,30 @@ tags: ['Data Visualization']
 
 ## Welcome to my third post! I'm not sure how sustainable it is to keep numbering the posts, but oh well.
 
-They say it's easy to make visualizations, but it's really hard to make them **good**, let alone ***great***! That being said, I think this one isn't half bad! It pretty clearly illustrates what it's supposed to, it's not particularly bulky. You might argue that using a scatterplot for heartrate is weird, but I really like being able to mouse over the individual points.
+I haven't done much visualization work in R before, but when the opportunity lands right in my lap, it feels silly to pass it up! Isabella Benabaye wrote a post on how to install custom CSS elements and themes into the hugo academic theme, and I was really impressed by the style of her website, as well as the elements of that post. I kept looking through her website, and I was so impressed! Her visualizations are some of the most gorgeous I've ever seen - some people really just know how to paint a picture. Of course, I want as many people to see her website as possible, so here it is!
 
-This graph, surprisingly, was a bit of a force to get together. I'll walk through the steps I had to take to get to this point below! Even though there were some obstacles, it was a blast, and I recommend it to anyone looking to create a fun little viz project.
+><p style="color:white;">[**Isabella Benabaye**](https://isabella-b.com/)</p>
 
-## The graph below is interactive! Mouse over some points to see what my heartrate was, and at what time.
+Anyway, I finished reading that post about hugo, and started perusing around her website. She's got a boatload of awesome projects and code to show you exactly how to create your own version! I saw her [life span waffle graph](https://isabella-b.com/blog/my-life-in-months/) and I thought it looked awesome, so I gave it a glance. It looked pretty straightforward, so I tried my hand at it!
 
-<iframe width="675" height="500" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+><p style="color:white;">I spent a lot of time troubleshooting.</p>
 
-So, before you say it, I know!
+I was overconfident going in, and I think I fumbled around with some install package settings that I wasn't supposed to (I imported plyr instead of dplyr, and it messed everything up. Something to do with the count function, I don't know.) Oh well! After a good chunk of time spent twiddling with the code, I finally got a working chunk. If you want to see my code, [feel free!](https://xndrmcw.netlify.app/project/lifespan_viz)
 
-><p style="color:white;">Fitbit provides a similar visualization in the mobile/browser app.</p>
+After I generated the waffle graph, I realized that the default legend wasn't quite to my taste, so I spent a little while using GIMP (yes, I'm in college, yes, I'm broke,) to mess around and make things look a little nicer, and provide some clarity.
 
-What they <b><i>don't</b></i> do (for a reason that I'm still not sure of) is allow you to download your heartrate data in a csv format! My initial goal with this project was to get familiar with animated visualizations, and I figured that creating a pulsing heartrate graph would be pretty sweet.
+In all honesty, there's a good reason why I decided to create my own visualization of this sort - the passing of time is terrifying.
 
-I couldn't find anything on the fitbit forums about downloading heartrate data. My guess is that HR data is pretty hard to come by, so maybe they don't want to just give it out willy-nilly. I dunno. It's kind of a bummer, though! Fortunately, I found a fantastic resource that does exactly what I was hoping for!
+><p style="color:white;">Especially when it's your last semester of college.</p>
+
+This graph, to me, serves as a warning and a motivator. I'm happy with the person I am today as well as the choices that I've made, but those choices *are* in the past, whether I like them all or not. All of
+
+><p style="color:white;">this</p>
+![viz](/static/media/lifespan_viz_photos/gone.png)
+
+is behind me!
+
+![viz](https://github.com/xndrmcw/lifespan_viz/blob/main/life_in_months_final.png)
 
 [**Check out Neil Ricci's Pulse Watch tool!**](https://iccir919.github.io/pulseWatch/public/index.html)
 

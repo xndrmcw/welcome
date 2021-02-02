@@ -37,16 +37,16 @@ tags: ['Data Visualization']
 
 
 ---
-
-## Thanks for checking out my second post! Look further below for an interactive version of this graph.
-
-They say it's easy to make visualizations, but it's really hard to make them **good**, let alone ***great***! That being said, I think this one isn't half bad! It pretty clearly illustrates what it's supposed to, it's not particularly bulky. You might argue that using a scatterplot for heartrate is weird, but I really like being able to mouse over the individual points.
-
-This graph, surprisingly, was a bit of a force to get together. I'll walk through the steps I had to take to get to this point below! Even though there were some obstacles, it was a blast, and I recommend it to anyone looking to create a fun little viz project.
-
 ## The graph below is interactive! Mouse over some points to see what my heartrate was, and at what time.
 
 <iframe width="675" height="500" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+
+
+### Thanks for checking out my second post!
+
+It's pretty easy to make visualizations, but it's really hard to make them **good**, let alone ***great***. That being said, I think this one isn't half bad for a near first attempt at fitness data! It pretty clearly illustrates what it's supposed to, and it's not particularly bulky. You might argue that using a scatterplot for heartrate is weird, but I really like being able to mouse over the individual points.
+
+The above graph was, perhaps surprisingly, a bit of a force to get together. I'll walk through the steps I had to take to get to this point below! Even though there were some obstacles, it was a blast, and I recommend it to anyone looking to create a fun little viz project.
 
 So, before you say it, I know!
 
