@@ -17,9 +17,6 @@ draft: false
 # Show this page in the Featured widget?
 featured: true
 
-header:
-  caption: "Interactive Graph Below!"
-  image: "/media/heartrate_viz_photos/hr_plot.png"
 
 authors:
 - admin
@@ -27,25 +24,9 @@ authors:
 tags:
 - Visualization
 
-toc: true
+
 
 ---
-{{ define "main" }}
-<main>
-  <article>
-    <header>
-      <h1>{{ .Title }}</h1>
-    </header>
-
-    {{ if and (.Params.toc) (gt .WordCount .Site.Params.tocMinWordCount ) }}
-      <h2>{{ i18n "tableOfContents" }}</h2>
-      {{ .TableOfContents }}
-    {{ end }}
-
-    {{ .Content }}
-  </article>
-</main>
-{{ end }}
 
 <iframe width="100%" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
 
@@ -84,4 +65,4 @@ Anyway, plotly was an easy package to use, and the cloud platform was great! It 
 
 Just as a fun little tradition, I'm going to include either a photo I've taken or that I really like in each of these blog posts. This post's photo is...
 
-{{< figure src="/media/heartrate_viz_photos/dinos.PNG" >}}
+{{< figure src="/media/heartrate_viz_photos/dinos.PNG" height ="50%" >}}
