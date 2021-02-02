@@ -2,7 +2,6 @@
 title: Using Fitbit heartbeat data to make a cute viz.
 
 image:
-  caption: 'Go, Rex, Go! Credit: [**Rex Orange County**](https://www.instagram.com/rexorangecounty)'
   focal_point: ""
   placement: 2
   preview_only: true
@@ -34,7 +33,7 @@ categories: ['Intro']
 
 ---
 
-<iframe width="800" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+<iframe width="700" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
 
 ## Thanks for checking out my second post!
 
