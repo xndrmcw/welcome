@@ -65,4 +65,4 @@ Anyway, plotly was an easy package to use, and the cloud platform was great! It 
 
 Just as a fun little tradition, I'm going to include either a photo I've taken or that I really like in each of these blog posts. This post's photo is...
 
-{{< figure src="/media/heartrate_viz_photos/dinos.PNG" height =50% >}}
+{{< figure src="/media/heartrate_viz_photos/dinos.PNG" >}}
