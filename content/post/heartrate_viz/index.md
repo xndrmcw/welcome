@@ -24,6 +24,12 @@ featured: true
 design:
   columns: '2'
 
+links:
+- icon: github
+  icon_pack: fab
+  name: My Code
+  url: https://github.com/xndrmcw/heartrate_vis
+
 authors:
 - admin
 
@@ -45,7 +51,7 @@ This graph, surprisingly, was a bit of a force to get together. I'll walk throug
 
 So, before you say it, I know!
 
->Fitbit provides a similar visualization in their own app.
+><p style="color:white;">Fitbit provides a similar visualization in the mobile/browser app.</p>
 
 What they <b><i>don't</b></i> do (for a reason that I'm still not sure of) is allow you to download your heartrate data in a csv format! My initial goal with this project was to get familiar with animated visualizations, and I figured that creating a pulsing heartrate graph would be pretty sweet.
 

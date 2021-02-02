@@ -6,7 +6,7 @@ tags:
 date: "2021-02-02T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://chart-studio.plotly.com/~alexandermcw/1.embed"
+external_link: ""
 
 
 links:
@@ -27,7 +27,7 @@ url_video: ""
 #slides: example
 ---
 
-The graph below is interactive! Mouse over some points to see what my heartrate was, and at what time.
+## The graph below is interactive! Mouse over some points to see what my heartrate was, and at what time.
 
 <iframe width="675" height="500" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
 
