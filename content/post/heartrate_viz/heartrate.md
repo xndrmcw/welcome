@@ -6,7 +6,7 @@ title: Using Fitbit heartbeat data to make a cute viz.
 projects: []
 
 # Date published
-date: "2021-02-01T00:00:00Z"
+date: "2021-02-01T00:00:01Z"
 
 # Date updated
 lastmod: "2021-02-01T00:00:00Z"
