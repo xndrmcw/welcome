@@ -17,17 +17,21 @@ draft: false
 # Show this page in the Featured widget?
 featured: true
 
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+image:
+  caption: 'Go, Rex, Go! Credit: [**Rex Orange County**](https://www.instagram.com/rexorangecounty)'
+  focal_point: ""
+  placement: 2
+  preview_only: false
+
 authors:
 - admin
 
 tags:
 - Visualization
 
-image:
-  caption: ""
-  focal_point: ""
-  placement: 2
-  preview_only: false
+
 ---
 
 <iframe width="100%" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
@@ -76,19 +80,16 @@ I used intraday, because I was only interested in one day, but I'll include scre
 
 <div class="row">
   <div class="column">
-    <img src="/media/heartrate_viz_photos/interday_hr.PNG" alt="Inter" style="width:50%">
+    <img src="/media/heartrate_viz_photos/interday_hr.PNG" alt="Inter" style="width:30%">
   </div>
   <div class="column">
-    <img src="/media/heartrate_viz_photos/intraday_hr.PNG" alt="Intra" style="width:50%">
+    <img src="/media/heartrate_viz_photos/intraday_hr.PNG" alt="Intra" style="width:30%">
   </div>
 </div>
 
 </body>
 </html>
 
-
-{{< figure src="/media/heartrate_viz_photos/interday_hr.PNG" caption="Interday UI" >}}
-{{< figure src="/media/heartrate_viz_photos/intraday_hr.PNG" caption="Intraday UI" >}}
 
 As for the actual coding - I used Python! Python is popular for data viz, and, in my experience, for good reason. The plotly package (install guide & documentation found [**Here!**](https://pypi.org/project/plotly)) was fantastic - I had to learn the ins and outs as I went, but I didn't have any significant issues. I love their gradient color scales. The one I selected was arbitrary, I just thought it was nice to look at.
 
