@@ -32,13 +32,13 @@ experience:
      -	Developed a comprehensive research project focused on text analysis & natural language processing.
      -	Analyzed reddit.com comment data with R-Studio packages textmatch and quanteda to gauge sentiment based on presumed user gender. Attempting to predict upvote/downvote ratio using summary statistics.
 
-
   - title: Independent Researcher
     company: Whatever room I'm sitting in!
     company_url: ''
     location: Wherever it takes me!
     date_start: '2017-09-01'
     date_end: ''
-    description: I'm conducting independent research on topics like computer vision and visualization at the moment. Packages I've been using lately include; cv2, plotly, & dash
+    description: |
+     -  I'm conducting independent research on topics like computer vision and visualization at the moment. Packages I'm currently playing with include plotly and cv2. Go-to packages are pandas and numpy.
 
 ---
