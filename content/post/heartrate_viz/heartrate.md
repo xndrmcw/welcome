@@ -24,10 +24,13 @@ tags:
 - Visualization
 
 image:
-
+  caption: ""
+  focal_point: ""
+  placement: 2
+  preview_only: false
 ---
 
-<iframe width="700" height="600" marginwidth="1000" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+<iframe width="100%" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
 
 ## Thanks for checking out my second post!
 
