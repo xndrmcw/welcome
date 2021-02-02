@@ -47,11 +47,13 @@ tags: ['Data Visualization']
 
 I haven't done much visualization work in R before, but when the opportunity lands right in my lap, it feels silly to pass it up! Isabella Benabaye wrote a post on how to install custom CSS elements and themes into the hugo academic theme, and I was really impressed by the style of her website, as well as the elements of that post. I kept looking through her website, and I was so impressed! Her visualizations are some of the most gorgeous I've ever seen - some people really just know how to paint a picture. Of course, I want as many people to see her website as possible, so here it is!
 
-><p style="color:white;">[**Isabella Benabaye**](https://isabella-b.com/)</p>
+><p style="color:white;">
+<a href="https://isabella-b.com/">Isabella Benabaye!</a>
+</p>
 
 Anyway, I finished reading that post about hugo, and started perusing around her website. She's got a boatload of awesome projects and code to show you exactly how to create your own version! I saw her [life span waffle graph](https://isabella-b.com/blog/my-life-in-months/) and I thought it looked awesome, so I gave it a glance. It looked pretty straightforward, so I tried my hand at it!
 
-><p style="color:white;">I spent a lot of time troubleshooting.</p>
+><p style="color:#F9C59F;">I spent a lot of time troubleshooting.</p>
 
 I was overconfident going in, and I think I fumbled around with some install package settings that I wasn't supposed to (I imported plyr instead of dplyr, and it messed everything up. Something to do with the count function, I don't know.) Oh well! After a good chunk of time spent twiddling with the code, I finally got a working chunk. If you want to see my code, [feel free!](https://xndrmcw.netlify.app/project/lifespan_viz)
 
@@ -59,15 +61,15 @@ After I generated the waffle graph, I realized that the default legend wasn't qu
 
 In all honesty, there's a good reason why I decided to create my own visualization of this sort - the passing of time is terrifying.
 
-><p style="color:white;">Especially when it's your last semester of college.</p>
+><p style="color:#F9C59F;">Especially when it's your last semester of college.</p>
 
-This graph, to me, serves as a warning and a motivator. I'm happy with the person I am today as well as the choices that I've made, but those choices *are* in the past, whether I like them all or not. All of
+This graph, to me, serves as a warning and a motivator. I'm happy with the person I am today as well as the choices that I've made, but those choices *are* in the past, whether I like them all or not.
 
-><p style="color:white;">this</p>
+><p style="color:#F9C59F;">All of this</p>
 
-![viz](C:\Users\Alexander\Documents\GitHub\xndrmcw\static\media\lifespan_viz_photos\gone.png)
+![viz](/media/lifespan_viz_photos/gone.png)
 
-><p style="color:white;">is behind me!</p>
+><p style="color:#F9C59F;">is behind me!</p>
 
 
 [**Check out Neil Ricci's Pulse Watch tool!**](https://iccir919.github.io/pulseWatch/public/index.html)
