@@ -5,7 +5,7 @@ image:
   caption: 'Go, Rex, Go! Credit: [**Rex Orange County**](https://www.instagram.com/rexorangecounty)'
   focal_point: ""
   placement: 2
-  preview_only: false
+  preview_only: true
 
 # Link this post with a project
 projects: []
