@@ -17,14 +17,15 @@ draft: false
 # Show this page in the Featured widget?
 featured: true
 
+design:
+  columns: '2'
 
 authors:
 - admin
 
-tags:
-- Visualization
+tags: ['Data Visualization']
 
-
+tags = ['Data Visualization']
 
 ---
 
