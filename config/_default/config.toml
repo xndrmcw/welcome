@@ -103,4 +103,4 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
     path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
 
 [params]
-    css = ["assets/scss/custom.scss"]
+    scss = ["assets/scss/custom.scss"]
