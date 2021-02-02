@@ -33,7 +33,7 @@ categories: ['Intro']
 
 ---
 
-<iframe width= 50% frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+<iframe frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
 
 ## Thanks for checking out my second post!
 
@@ -64,7 +64,7 @@ As for the actual coding - I used Python! Python is popular for data viz, and, i
 
 {{< figure src="/media/heartrate_viz_photos/gradient_colorscales.PNG" >}}
 
-Plotly allows you to export your graphs as jupyter notebook and standalone HTML files, but it also allows for online hosting through the [**Chart Studio Cloud Platform!**](https://chart-studio.plotly.com/). I might make a post that walks line by line through my code to create this visualization later, when I get more comfortable with using Hugo (the GitHub-oriented (is that a thing? GitHub-oriented?? whatever) website builder I'm using).
+Plotly allows you to export your graphs as jupyter notebook and standalone HTML files, but it also allows for online hosting through the [**Chart Studio Cloud Platform!**](https://chart-studio.plotly.com/) I might make a post that walks line by line through my code to create this visualization later, when I get more comfortable with using Hugo (the GitHub-oriented (is that a thing? GitHub-oriented?? whatever) website builder I'm using).
 
 Anyway, plotly was an easy package to use, and the cloud platform was great! It allowed me to export my visualization as an HTML iframe, which I easily popped into the Hugo config files. I have very little experience with HTML, but learning how to format this very blog post gave me a nice crash-course. I'm learning ways to be more efficient as I go. In the beginning, I was manually editing things in GitHub in browser, and that felt pretty terrible. Switching to the desktop app was great. I'm thinking that I must be missing another piece of the puzzle, though. Having to deploy my website through netlify and waiting for the website to load every time I want to see my changes is pretty rough. Oh well, I'll figure the rest out as I go!
 
