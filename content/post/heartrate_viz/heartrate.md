@@ -51,6 +51,25 @@ If you provide this website access to your fitbit account (you'll need your sign
 
 I used intraday, because I was only interested in one day, but I'll include screenshots of both, because it's a great website, and Neil did an amazing job with it.
 
+<html>
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+<div class="row">
+  <div class="column">
+    <img src="/media/heartrate_viz_photos/interday_hr.PNG" alt="Inter" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/media/heartrate_viz_photos/intraday_hr.PNG" alt="Intra" style="width:100%">
+  </div>
+</div>
+
 {{< figure src="/media/heartrate_viz_photos/interday_hr.PNG" caption="Interday UI" >}}
 {{< figure src="/media/heartrate_viz_photos/intraday_hr.PNG" caption="Intraday UI" >}}
 
