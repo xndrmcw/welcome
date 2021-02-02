@@ -63,15 +63,20 @@ After I generated the waffle graph, I realized that the default legend wasn't qu
 
 This graph, to me, serves both as warning and motivator. I'm happy with the person I am today as well as the choices that I've made, but those choices *are* in the past, whether I like them all or not. I can't get back the time that I spent aimlessly. As much as I do miss the past, though, I know that new and exciting parts of life are coming soon. I'm not sure where I'm going to end up location-wise, but I know that I'll find happiness where I go. The key, I think, is that I need to actively search for that happiness. I'm through with sitting and waiting for opportunities to come to me. Enough of that.
 
-><p style="color:#F9C59F;font-size: 40px;">All of this is behind me! I'll miss it. Even the awkward bits.</p>
+><p style="color:#F9C59F;font-size: 34px;">All of this is behind me! I'll miss it. Even the awkward bits.</p>
 
-<img src="/media/lifespan_viz_photos/gone.png" width="60%">
+<img src="/media/lifespan_viz_photos/gone.png" height="50%">
 
 
-><p style="color:#F9C59F;font-size: 40px;">Fortunately, I've still got all of this left to go! No doubt there are going to be some awkward bits in there too, though...</p>
+><p style="color:#F9C59F;font-size: 34px;">Fortunately, I've still got all of this left to go! No doubt there are going to be some awkward bits in there too, though...</p>
 
-<img src="/media/lifespan_viz_photos/left.png" width="60%">
+<img src="/media/lifespan_viz_photos/left.png" height="50%">
 
->Despite the inevitable anxiety that couples naturally with visualizations in which we can see our 'end' like those above, there's always another way to look at things. If you're lucky enough to be "average," you can expect to see your late 70s. Assuming you're 20, that's another 720 months of life. Think of all the amazing things that have happened to you so far in the bit that you've had (and by that I mean literally everything that you've ever experienced,) and come to terms with the fact that there's even more to come. If tomorrow, last week, last month, or even the last year wasn't amazing for you, that's okay. There are ebbs and flows in this path, peaks and valleys on the road of life. Peaks and valleys.
+><p style="color:#EC7178;">Despite the anxiety that seems to arrive hand in hand with visualizations in which we can see our 'end' like those above, there's always a silver lining. If you're lucky enough to be "average," you can expect to see your late 70s.</p>
+><p style="color:#EC7178;">Assuming you're 20, that's another 720 months of life. Think of all the amazing things that have happened to you in the small fraction of life that you've had (and by that I mean literally everything that you've ever experienced,) and take a minute or two to think about the fact that you're going to do it nearly three more times. Wow. </p>
+
+><p style="color:#EC7178;"> If tomorrow, last week, last month, or even the last year wasn't amazing for you, that's okay. There are ebbs and flows in our paths, peaks and valleys on the road of life.</p>
+
+><p style="color:#EC7178;">Peaks and valleys.</p>
 
 {{< figure src="/media/lifespan_viz_photos/sunset.PNG" height="50%">}}
