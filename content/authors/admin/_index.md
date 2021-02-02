@@ -26,7 +26,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: BSc. in Data Analytics
+  - course: H. BSc. in Data Analytics
     institution: Bentley University
     year: 2021
 
@@ -62,4 +62,4 @@ highlight_name: false
 Hi, I'm Alexander! I'm a senior at Bentley University, and I'm currently excitedly wrapping up my bachelor's in Data Analytics. My senior capstone focuses on natural language processing, and my independent research projects this year have focused on fitness device data visualizations and computer vision. I'm looking for a role that allows me to exercise my quantitative and qualitative strengths at a company which fosters growth in its employees and rewards dedication and diligence.
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} If you'd like, take a look at my {{< staticref "media/resume.pdf" "newtab" >}}resumé!{{< /staticref >}}.

@@ -78,7 +78,7 @@ privacy_pack = false
 edit_page = {repo_url = "", content_dir = "", repo_branch = "main", editable = {page = false, post = false, book = false}}
 
 # Show related content at the bottom of pages?
-show_related = {book = true, page = false, post = true, project = true, publication = true, talk = true}
+#show_related = {book = true, page = false, post = true, project = true, publication = true, talk = true}
 
 ############################
 ## Contact details
@@ -169,8 +169,6 @@ abstract_length = 135
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_js  = []
-
-plugins_scss = ["custom"]
 
 # Avatars.
 # An avatar is an image that appears next to a user's name.

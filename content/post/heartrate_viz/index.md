@@ -33,7 +33,7 @@ categories: ['Intro']
 
 ---
 
-<iframe width="650" height="500" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+<iframe width="675" height="500" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
 
 ## Thanks for checking out my second post!
 
