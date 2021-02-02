@@ -1,19 +1,19 @@
 ---
-title: Using Fitbit heartbeat data to make a cute viz.
+title: Mortality is scary! Here's a visualization inspired by Isabella Benabaye to help confront it.
 
 image:
   focal_point: ""
   placement: 2
-  preview_only: true
+  preview_only: false
 
 # Link this post with a project
-projects: ['heartrate_viz']
+projects: []
 
 # Date published
-date: "2021-02-01T00:00:01Z"
+date: "2021-02-02T00:00:01Z"
 
 # Date updated
-lastmod: "2021-02-01T00:00:00Z"
+lastmod: "2021-02-02T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
@@ -27,8 +27,13 @@ design:
 links:
 - icon: github
   icon_pack: fab
+  name: Isabella's Code
+  url: https://github.com/isabellabenabaye/life-chart
+
+- icon: github
+  icon_pack: fab
   name: My Code
-  url: https://github.com/xndrmcw/heartrate_vis
+  url: https://github.com/xndrmcw/lifespan_viz
 
 authors:
 - admin
@@ -38,7 +43,7 @@ tags: ['Data Visualization']
 
 ---
 
-## Thanks for checking out my second post! Look further below for an interactive version of this graph.
+## Welcome to my third post! I'm not sure how sustainable it is to keep numbering the posts, but oh well.
 
 They say it's easy to make visualizations, but it's really hard to make them **good**, let alone ***great***! That being said, I think this one isn't half bad! It pretty clearly illustrates what it's supposed to, it's not particularly bulky. You might argue that using a scatterplot for heartrate is weird, but I really like being able to mouse over the individual points.
 

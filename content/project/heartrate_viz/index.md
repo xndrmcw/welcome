@@ -9,7 +9,7 @@ date: "2021-02-02T00:00:00Z"
 external_link: ""
 
 
-links:
+links:  
 - icon: github
   icon_pack: fab
   name: My Code
@@ -31,7 +31,7 @@ url_video: ""
 
 <iframe width="675" height="500" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
 
-The This is the project page associated with my blog post, found [**here.**](https://xndrmcw.netlify.app/post/heartrate_viz/)
+This is the project page associated with my blog post, found [**here.**](https://xndrmcw.netlify.app/post/heartrate_viz/)
 
 If you'd like, you can read my code below. It's not the prettiest, but I'm getting better, I swear!
 
