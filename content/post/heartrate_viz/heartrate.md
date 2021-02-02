@@ -17,13 +17,9 @@ draft: false
 # Show this page in the Featured widget?
 featured: true
 
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
-image:
-  caption: 'Go, Rex, Go! Credit: [**Rex Orange County**](https://www.instagram.com/rexorangecounty)'
-  focal_point: ""
-  placement: 2
-  preview_only: false
+header:
+  caption: "Interactive Graph Below!"
+  image: "/media/heartrate_viz_photos/hr_plot.png"
 
 authors:
 - admin
@@ -54,41 +50,11 @@ If you provide this website access to your fitbit account (you'll need your sign
 {{< figure src="/media/heartrate_viz_photos/options.PNG" caption="Inter/Intra" >}}
 
 I used intraday, because I was only interested in one day, but I'll include screenshots of both, because it's a great website, and Neil did an amazing job with it.
+## Intra-day HR!
+{{< figure src="/media/heartrate_viz_photos/intraday_hr.PNG" caption="Inter/Intra" >}}
 
-<html>
-<head>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</head>
-<body>
-
-<div class="row">
-  <div class="column">
-    <img src="/media/heartrate_viz_photos/interday_hr.PNG" alt="Inter" style="width:30%">
-  </div>
-  <div class="column">
-    <img src="/media/heartrate_viz_photos/intraday_hr.PNG" alt="Intra" style="width:30%">
-  </div>
-</div>
-
-</body>
-</html>
+## Inter-day HR!
+{{< figure src="/media/heartrate_viz_photos/interday_hr.PNG" caption="Inter/Intra" >}}
 
 
 As for the actual coding - I used Python! Python is popular for data viz, and, in my experience, for good reason. The plotly package (install guide & documentation found [**Here!**](https://pypi.org/project/plotly)) was fantastic - I had to learn the ins and outs as I went, but I didn't have any significant issues. I love their gradient color scales. The one I selected was arbitrary, I just thought it was nice to look at.
