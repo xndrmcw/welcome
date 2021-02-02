@@ -1,7 +1,11 @@
 ---
 title: Using Fitbit heartbeat data to make a cute viz.
 
-thumbnail: "/media/heartrate_viz_photos/hr_plot.PNG" 
+image:
+  caption: 'Go, Rex, Go! Credit: [**Rex Orange County**](https://www.instagram.com/rexorangecounty)'
+  focal_point: ""
+  placement: 2
+  preview_only: false
 
 # Link this post with a project
 projects: []
@@ -26,11 +30,11 @@ authors:
 
 tags: ['Data Visualization']
 
-
+categories: ['Intro']
 
 ---
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+<iframe width="800" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
 
 ## Thanks for checking out my second post!
 

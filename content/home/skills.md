@@ -32,11 +32,11 @@ feature:
   icon: dumbbell
   icon_pack: fas
   name: Weightlifting
-- description: 90% Reading
+- description: 90% Finished with Atlas Shrugged
   icon: book
   icon_pack: fas
   name: Reading
-- description: 20% Bicycling Along the Charles
+- description: 20% Chance I'm Biking Along the Charles
   icon: biking
   icon_pack: fas
   name: Biking
