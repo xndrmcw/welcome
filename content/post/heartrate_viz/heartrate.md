@@ -1,7 +1,7 @@
 ---
 title: Using Fitbit heartbeat data to make a cute viz.
 
-image: "/media/heartrate_viz_photos/hr_plot.PNG" 
+thumbnail: "/media/heartrate_viz_photos/hr_plot.PNG" 
 
 # Link this post with a project
 projects: []
