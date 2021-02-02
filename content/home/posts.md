@@ -6,8 +6,14 @@ widget: pages
 # This file represents a page section.
 headless: true
 
+toc: false
+
+[param]
+  # Minimum word count to display the Table of Contents
+  tocMinWordCount = 500
+
 # Order that this section appears on the page.
-weight: 3
+weight: 4
 
 title: Recent Posts
 subtitle:
