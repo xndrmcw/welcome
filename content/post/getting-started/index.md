@@ -28,8 +28,6 @@ image:
 authors:
 - admin
 
-tags:
-- Intro
 
 categories:
 - Intro
