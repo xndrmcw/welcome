@@ -53,20 +53,22 @@ I used intraday, because I was only interested in one day, but I'll include scre
 
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
 }
 
-.row {
-  display: flex;
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
 }
 
-/* Create three equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 5px;
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>
 </head>
@@ -74,10 +76,10 @@ I used intraday, because I was only interested in one day, but I'll include scre
 
 <div class="row">
   <div class="column">
-    <img src="/media/heartrate_viz_photos/interday_hr.PNG" alt="Inter" style="width:100%">
+    <img src="/media/heartrate_viz_photos/interday_hr.PNG" alt="Inter" style="width:50%">
   </div>
   <div class="column">
-    <img src="/media/heartrate_viz_photos/intraday_hr.PNG" alt="Intra" style="width:100%">
+    <img src="/media/heartrate_viz_photos/intraday_hr.PNG" alt="Intra" style="width:50%">
   </div>
 </div>
 
