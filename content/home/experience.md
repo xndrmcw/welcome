@@ -7,7 +7,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 5
+weight: 2
 
 title: Experience
 subtitle:
@@ -32,7 +32,7 @@ experience:
      -	Developed a comprehensive research project focused on text analysis & natural language processing.
      -	Analyzed reddit.com comment data with R-Studio packages textmatch and quanteda to gauge sentiment based on presumed user gender. Attempting to predict upvote/downvote ratio using summary statistics.
 
-        
+
   - title: Independent Researcher
     company: Whatever room I'm sitting in!
     company_url: ''
