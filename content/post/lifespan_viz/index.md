@@ -59,41 +59,19 @@ I was overconfident going in, and I think I fumbled around with some install pac
 
 After I generated the waffle graph, I realized that the default legend wasn't quite to my taste, so I spent a little while using GIMP (yes, I'm in college, yes, I'm broke,) to mess around and make things look a little nicer, and provide some clarity.
 
-In all honesty, there's a good reason why I decided to create my own visualization of this sort - the passing of time is terrifying.
+><p style="color:#F9C59F;">In all honesty, there's a good reason why I decided to create my own visualization of this sort. The passing of time is terrifying, especially when it's your last semester of college.</p>
 
-><p style="color:#F9C59F;">Especially when it's your last semester of college.</p>
+This graph, to me, serves both as warning and motivator. I'm happy with the person I am today as well as the choices that I've made, but those choices *are* in the past, whether I like them all or not. I can't get back the time that I spent aimlessly. As much as I do miss the past, though, I know that new and exciting parts of life are coming soon. I'm not sure where I'm going to end up location-wise, but I know that I'll find happiness where I go. The key, I think, is that I need to actively search for that happiness. I'm through with sitting and waiting for opportunities to come to me. Enough of that.
 
-This graph, to me, serves as a warning and a motivator. I'm happy with the person I am today as well as the choices that I've made, but those choices *are* in the past, whether I like them all or not.
+><p style="color:#F9C59F;font-size: 40px;">All of this is behind me! I'll miss it. Even the awkward bits.</p>
 
-><p style="color:#F9C59F;font-size: 40px;">All of the stuff below is behind me! I'll miss it. Even the awkawrd bits.</p>
-
-<img src="/media/lifespan_viz_photos/gone.png" width="80%">
+<img src="/media/lifespan_viz_photos/gone.png" width="60%">
 
 
-[**Check out Neil Ricci's Pulse Watch tool!**](https://iccir919.github.io/pulseWatch/public/index.html)
+><p style="color:#F9C59F;font-size: 40px;">Fortunately, I've still got all of this left to go! No doubt there are going to be some awkward bits in there too, though...</p>
 
-If you provide this website access to your fitbit account (you'll need your signin info), it'll prompt you with the option to choose either inter or intra day data, as you can see below.
+<img src="/media/lifespan_viz_photos/left.png" width="60%">
 
-{{< figure src="/media/heartrate_viz_photos/options.PNG" caption="Inter/Intra" >}}
+>Despite the inevitable anxiety that couples naturally with visualizations in which we can see our 'end' like those above, there's always another way to look at things. If you're lucky enough to be "average," you can expect to see your late 70s. Assuming you're 20, that's another 720 months of life. Think of all the amazing things that have happened to you so far in the bit that you've had (and by that I mean literally everything that you've ever experienced,) and come to terms with the fact that there's even more to come. If tomorrow, last week, last month, or even the last year wasn't amazing for you, that's okay. There are ebbs and flows in this path, peaks and valleys on the road of life. Peaks and valleys.
 
-I used intraday, because I was only interested in one day, but I'll include screenshots of both, because it's a great website, and Neil did an amazing job with it.
->## Intra-day HR!
-{{< figure src="/media/heartrate_viz_photos/intraday_hr.PNG" >}}
-
->## Inter-day HR!
-{{< figure src="/media/heartrate_viz_photos/interday_hr.PNG" >}}
-
-
-As for the actual coding - I used Python! Python is popular for data viz, and, in my experience, for good reason. The plotly package ([install guide & documentation found **HERE!**](https://pypi.org/project/plotly)) was fantastic - I had to learn the ins and outs as I went, but I didn't have any significant issues. I love their gradient color scales. The one I selected was arbitrary, I just thought it was nice to look at. If you don't like this one, here's some others they offer, as well as a [hyperlink](https://plotly.com/python/builtin-colorscales/) to the page where you can find a full list!
-
-{{< figure src="/media/heartrate_viz_photos/gradient_colorscales.PNG" >}}
-
-Plotly allows you to export your graphs as jupyter notebook and standalone HTML files, but it also allows for online hosting through the [**Chart Studio Cloud Platform!**](https://chart-studio.plotly.com/) I might make a post that walks line by line through my code to create this visualization later, when I get more comfortable with using Hugo (the GitHub-oriented (is that a thing? GitHub-oriented?? whatever) website builder I'm using).
-
-Anyway, plotly was an easy package to use, and the cloud platform was great! It allowed me to export my visualization as an HTML iframe, which I easily popped into the Hugo config files. I have very little experience with HTML, but learning how to format this very blog post gave me a nice crash-course. I'm learning ways to be more efficient as I go. In the beginning, I was manually editing things in GitHub in browser, and that felt pretty terrible. Switching to the desktop app was great. I'm thinking that I must be missing another piece of the puzzle, though. Having to deploy my website through netlify and waiting for the website to load every time I want to see my changes is pretty rough. Oh well, I'll figure the rest out as I go!
-
-Just as a fun little tradition, I'm going to include either a photo I've taken or that I really like in each of these blog posts.
-
->This post's photo is...
-
-{{< figure src="/media/heartrate_viz_photos/dinos.PNG" >}}
+{{< figure src="/media/lifespan_viz_photos/sunset.PNG" height="50%">}}
