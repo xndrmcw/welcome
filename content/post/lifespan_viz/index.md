@@ -65,7 +65,7 @@ This graph, to me, serves as a warning and a motivator. I'm happy with the perso
 
 ><p style="color:white;">this</p>
 
-    ![viz](/static/media/lifespan_viz_photos/gone.png)
+![viz](C:\Users\Alexander\Documents\GitHub\xndrmcw\static\media\lifespan_viz_photos\gone.png)
 
 ><p style="color:white;">is behind me!</p>
 
