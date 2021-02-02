@@ -14,7 +14,7 @@ organizations:
   url: https://www.bentley.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research at school focuses on Natural Language Processing and Machine Learning, but I really love building fun projects with the bits and pieces of programming that I learn! 
+bio: My research at school focuses on Natural Language Processing and Machine Learning, but I really love building fun projects with the bits and pieces of programming that I learn!
 
 # Interests to show in About widget
 interests:
@@ -46,7 +46,7 @@ social:
   link: https://github.com/xndrmcw
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
+# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
@@ -59,7 +59,7 @@ email: ""
 highlight_name: false
 ---
 
-Hi, I'm Alexander! I'm a senior at Bentley University, and I'm currently excitedly wrapping up my bachelor's in Data Analytics. My senior capstone focuses on natural language processing, and my independent research projects this year have focused on fitness device data visualizations. I'm looking for a role that allows me to exercise my quantitative and qualitative strengths at a company that fosters growth in its employees and rewards dedication. 
+Hi, I'm Alexander! I'm a senior at Bentley University, and I'm currently excitedly wrapping up my bachelor's in Data Analytics. My senior capstone focuses on natural language processing, and my independent research projects this year have focused on fitness device data visualizations and computer vision. I'm looking for a role that allows me to exercise my quantitative and qualitative strengths at a company which fosters growth in its employees and rewards dedication and diligence.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
