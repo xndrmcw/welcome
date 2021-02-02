@@ -47,7 +47,7 @@ tags: ['Data Visualization']
 
 I haven't done much visualization work in R before, but when the opportunity lands right in my lap, it feels silly to pass it up! Isabella Benabaye wrote a post on how to install custom CSS elements and themes into the hugo academic theme, and I was really impressed by the style of her website, as well as the elements of that post. I kept looking through her website, and I was so impressed! Her visualizations are some of the most gorgeous I've ever seen - some people really just know how to paint a picture. Of course, I want as many people to see her website as possible, so here it is!
 
-><p style="color:white;">![**Isabella Benabaye**](https://isabella-b.com/)</p>
+><p style="color:white;">[**Isabella Benabaye**](https://isabella-b.com/)</p>
 
 Anyway, I finished reading that post about hugo, and started perusing around her website. She's got a boatload of awesome projects and code to show you exactly how to create your own version! I saw her [life span waffle graph](https://isabella-b.com/blog/my-life-in-months/) and I thought it looked awesome, so I gave it a glance. It looked pretty straightforward, so I tried my hand at it!
 
@@ -65,7 +65,7 @@ This graph, to me, serves as a warning and a motivator. I'm happy with the perso
 
 ><p style="color:white;">this</p>
 
-![viz](/static/media/lifespan_viz_photos/gone.png)
+    ![viz](/static/media/lifespan_viz_photos/gone.png)
 
 ><p style="color:white;">is behind me!</p>
 
