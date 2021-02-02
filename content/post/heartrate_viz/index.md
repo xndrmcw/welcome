@@ -32,6 +32,7 @@ tags: ['Data Visualization']
 categories: ['Intro']
 
 ---
+## The graph below is interactive! Mouse over some points to see what my heartrate was, and at what time.
 
 <iframe width="675" height="500" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
 
@@ -42,7 +43,11 @@ They say it's easy to make visualizations, but it's really hard to make them **g
 This graph, surprisingly, was a bit of a force to get together. I'll walk through the steps I had to take to get to this point below! Even though there were some obstacles, it was a blast, and I recommend it to anyone looking to create a fun little viz project.
 
 
-So, before you say it, I know! Fitbit provides a similar visualization in their own app. What they <b><i>don't</b></i> do (for a reason I'm still not sure of) is allow you to download your heartrate data in a csv format! My initial goal with this project was to get familiar with animated visualizations, and I figured that creating a pulsing heartrate graph would be pretty sweet.
+So, before you say it, I know!
+
+>Fitbit provides a similar visualization in their own app.
+
+What they <b><i>don't</b></i> do (for a reason that I'm still not sure of) is allow you to download your heartrate data in a csv format! My initial goal with this project was to get familiar with animated visualizations, and I figured that creating a pulsing heartrate graph would be pretty sweet.
 
 I couldn't find anything on the fitbit forums about downloading heartrate data. My guess is that HR data is pretty hard to come by, so maybe they don't want to just give it out willy-nilly. I dunno. It's kind of a bummer, though! Fortunately, I found a fantastic resource that does exactly what I was hoping for!
 
@@ -60,7 +65,7 @@ I used intraday, because I was only interested in one day, but I'll include scre
 {{< figure src="/media/heartrate_viz_photos/interday_hr.PNG" >}}
 
 
-As for the actual coding - I used Python! Python is popular for data viz, and, in my experience, for good reason. The plotly package ([install guide & documentation found **Here!**](https://pypi.org/project/plotly)) was fantastic - I had to learn the ins and outs as I went, but I didn't have any significant issues. I love their gradient color scales. The one I selected was arbitrary, I just thought it was nice to look at. If you don't like this one, here's some others they offer, as well as a [hyperlink](https://plotly.com/python/builtin-colorscales/) to the page where you can find a full list!
+As for the actual coding - I used Python! Python is popular for data viz, and, in my experience, for good reason. The plotly package ([install guide & documentation found **HERE!**](https://pypi.org/project/plotly)) was fantastic - I had to learn the ins and outs as I went, but I didn't have any significant issues. I love their gradient color scales. The one I selected was arbitrary, I just thought it was nice to look at. If you don't like this one, here's some others they offer, as well as a [hyperlink](https://plotly.com/python/builtin-colorscales/) to the page where you can find a full list!
 
 {{< figure src="/media/heartrate_viz_photos/gradient_colorscales.PNG" >}}
 
