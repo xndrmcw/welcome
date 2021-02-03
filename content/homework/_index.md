@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Homework
 cms_exclude: true
 
 # View.

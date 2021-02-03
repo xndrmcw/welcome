@@ -20,3 +20,5 @@ home_section_even = "#404351"
 [dark]
   link = "#bbdefb"
   link_hover = "#bbdefb"
+
+hljs-comment = "#c0cfc4"
