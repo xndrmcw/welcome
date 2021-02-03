@@ -39,11 +39,12 @@ Welcome to my personal website! I hope you like what you see. I built this websi
 
 I still need to figure out what "relevant" means, because I've got quite a few things that I'm interested in! I plan on using this website to supplement my job applications, though, so I figure it'll be a bunch of stuff related to my data analytics experiences, as well as any tech-y projects I'm working on.
 
-<img src="static/media/intro_post_photos/elevator.JPG">
+<img src="friends.JPG">
 
 Here's a cute picture of my friends!
 
 Below is the licensing information for the theme & website building software that I used to design this site. I feel bad for deleting it, because of how much I love it!
+
 
 ## License
 
