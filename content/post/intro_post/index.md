@@ -39,7 +39,7 @@ Welcome to my personal website! I hope you like what you see. I built this websi
 
 I still need to figure out what "relevant" means, because I've got quite a few things that I'm interested in! I plan on using this website to supplement my job applications, though, so I figure it'll be a bunch of stuff related to my data analytics experiences, as well as any tech-y projects I'm working on.
 
-<figure src="static/media/intro_post_photos/elevator.JPG">
+<img src="static/media/intro_post_photos/elevator.JPG">
 
 Here's a cute picture of my friends!
 
