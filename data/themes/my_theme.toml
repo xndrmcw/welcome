@@ -5,7 +5,7 @@ name = "Minimal"
 light = true
 
 # Primary
-primary = "#BBDEFB"
+primary = "#99d1ff"
 
 # Menu
 menu_primary = "#fff"
@@ -18,7 +18,7 @@ home_section_odd = "#FFF1E6"
 home_section_even = "#EDDCD2"
 
 [dark]
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
+  link = "#99d1ff"
+  link_hover = "#99d1ff"
 
 hljs-comment = "#c0cfc4"
