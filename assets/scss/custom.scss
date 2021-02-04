@@ -36,7 +36,7 @@
   }
 }
 .navbar {
-  animation: backInLeft 1s both;
+  animation: fade-in 500ms both;
   height: 70px;
   background: $sta-menu-primary;
 /* this is the part that takes out the shadow & the only edit */
@@ -50,6 +50,6 @@
   z-index: 1030;
   padding: 0 1rem;
 }
-.nav-link {
+.nav-link.active {
   color: #B2D5F5;
 }
