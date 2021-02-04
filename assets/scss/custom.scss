@@ -19,7 +19,7 @@
   .main-content {
     opacity: 0;
     animation: fade-in 1s forwards;
-    animation: slide-in-right 1s cubic-bezier(0.83, 0, 0.17, 1) forwards
+    animation: slide-in-right 1s cubic-bezier(0.83, 0, 0.17, 1) forwards;
     animation-delay: 1s;
   }
 #profile {
