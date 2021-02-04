@@ -36,7 +36,8 @@
   }
 }
 .navbar {
-  animation: fade-in cubic-bezier(0.83, 0, 0.17, 1);
+  animation: flipInX 1s both;
+  animation-delay: 0.5s;
   height: 70px;
   background: $sta-menu-primary;
 /* this is the part that takes out the shadow & the only edit */
