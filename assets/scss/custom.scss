@@ -36,7 +36,7 @@
   }
 }
 .navbar {
-  animation: wobble 2s cubic-bezier(0.83, 0, 0.17, 1) both;
+  animation: fade-in 1s cubic-bezier(0.83, 0, 0.17, 1) both;
   height: 70px;
   color: #B2D5F5;
   background: $sta-menu-primary;
