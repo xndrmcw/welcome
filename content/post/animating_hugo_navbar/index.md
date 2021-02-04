@@ -52,6 +52,7 @@ Look no further! I'm going to walk you through an example of how you can add ani
 
 <iframe src="https://giphy.com/embed/dM6nCTSrj1ZUMXGQst" width="480" height="198" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dM6nCTSrj1ZUMXGQst">via GIPHY</a></p>
 
+`{{< figure src="./animate_gif.gif" link="./animate_gif.gif" >}}`
 
 First, let's clarify what I'm referring to when I say navbar.
 
@@ -139,6 +140,8 @@ This portion of the file should now look like
             {{if $show_logo}}
             <div class="d-none d-lg-inline-flex">
               <a class="navbar-brand" href="{{ "/" | relLangURL }}">
+
+I learned about animate.css from [this post](https://isabella-b.com/today-i-learned-posts/adding-css-animations/) by Isabella Benabaye!
 
 Next step!
 
