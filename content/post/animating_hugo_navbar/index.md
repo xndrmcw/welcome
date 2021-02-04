@@ -54,7 +54,7 @@ Look no further! I'm going to walk you through an example of how you can add ani
 
 First, let's clarify what I'm referring to when I say navbar.
 
-<div style="width:100%;height:0;padding-bottom:15%;position:relative;"><iframe src="https://giphy.com/embed/Z4SvjxhzXkHEeTTFpW" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/Z4SvjxhzXkHEeTTFpW">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/Z4SvjxhzXkHEeTTFpW" width="480" height="74" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Z4SvjxhzXkHEeTTFpW">via GIPHY</a></p>
 
 This is your navbar! Let's say you're interested in adding a slick animation from https://animate.style/ to it.
 
