@@ -1,4 +1,11 @@
 #about {
   /* Some CSS will go here soon! */
   /* comment, comment, comment... */
+  @keyframes slide_in_from_right {
+    0% {transform: translateX(150%)}
+    100% {transform:translateX(05); }
+  }
+  biography.title {
+    animation: slide_in_from_right 1s forwards;
+  }
 }
