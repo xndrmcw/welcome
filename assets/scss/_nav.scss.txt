@@ -4,13 +4,13 @@
 
 .dropdown-menu {
   background-color: $sta-menu-primary !important;
-  color: $sta-menu-text !important;
+  color: #B2D5F5 !important;
   z-index: 1032; // I18n dropdown over mobile expanded menu.
 }
 
 .navbar {
   height: 70px;
-  background: $sta-menu-primary;
+  background: #B2D5F5;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
   font-size: #{$sta-font-size-small}px;
   position: fixed;
@@ -69,7 +69,7 @@
   .dropdown-item.active,
   .dropdown-item-active {
     font-weight: bold;
-    color: $sta-menu-text-active !important;
+    color: #B2D5F5 !important;
   }
 }
 
