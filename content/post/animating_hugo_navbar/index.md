@@ -1,5 +1,5 @@
 ---
-title: Using Fitbit heartbeat data to make a cute viz.
+title: How to Add Custom Animations to Specific HTML Elements in Hugo v. 0.80.0
 
 image:
   focal_point: ""
@@ -7,13 +7,13 @@ image:
   preview_only: true
 
 # Link this post with a project
-projects: ['heartrate_viz']
+projects: []
 
 # Date published
-date: "2021-02-01T00:00:01Z"
+date: "2021-02-04T00:00:01Z"
 
 # Date updated
-lastmod: "2021-02-01T00:00:00Z"
+lastmod: "2021-02-04T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
@@ -25,61 +25,82 @@ design:
   columns: '2'
 
 links:
-- icon: github
+- icon: youtube
   icon_pack: fab
-  name: My Code
+  name: Video Tutorial
   url: https://github.com/xndrmcw/heartrate_vis
 
 authors:
 - admin
 
-tags: ['Data Visualization']
+tags: ['Hugo Customization']
 
 
 ---
-## The graph below is interactive! Mouse over some points to see what my heartrate was, and at what time.
+## I'm a little bit embarrassed by how long it took me to figure this out, but, as I've mentioned in other posts, I've never used HTML/CSS before, so this stuff is completely new to me!
 
-<iframe width="675" height="500" frameborder="0" scrolling="no" src="//plotly.com/~alexandermcw/1.embed"></iframe>
+Hello! If you're like me, that is:
 
+>Using Hugo Academic 0.80.0
+>Looking to Spice up Your Landing Page
+>Confused
 
-### Thanks for checking out my second post!
+Look no further! I'm going to walk you through an example of how you can add animations to the navigation bar, but the same concept applies to nearly any element on the page.
 
-It's pretty easy to make visualizations, but it's really hard to make them **good**, let alone ***great***. That being said, I think this one isn't half bad for a near first attempt at fitness data! It pretty clearly illustrates what it's supposed to, and it's not particularly bulky. You might argue that using a scatterplot for heartrate is weird, but I really like being able to mouse over the individual points.
+First, let's clarify what I'm referring to when I say navbar.
 
-The above graph was, perhaps surprisingly, a bit of a force to get together. I'll walk through the steps I had to take to get to this point below! Even though there were some obstacles, it was a blast, and I recommend it to anyone looking to create a fun little viz project.
+{{< figure src="nabar_1.PNG" >}}
 
-So, before you say it, I know!
+This is your navbar! Let's say you're interested in adding an animation to it (you want it to fade in, roll in, whatever other fancy animation from https://animate.style/ tickles your fancy.)
 
-><p style="color:white;">Fitbit provides a similar visualization in the mobile/browser app.</p>
+Here's what you need to do:
 
-What they <b><i>don't</b></i> do (for a reason that I'm still not sure of) is allow you to download your heartrate data in a csv format! My initial goal with this project was to get familiar with animated visualizations, and I figured that creating a pulsing heartrate graph would be pretty sweet.
+## 1
+Install GitHub desktop and clone your website's repository to your PC. This is just to make life easier - it's a lot easier to edit local files rather than through a browser. Find your website's folder in 'Users/yourname/Documents/GitHub/yourwebsite'
 
-I couldn't find anything on the fitbit forums about downloading heartrate data. My guess is that HR data is pretty hard to come by, so maybe they don't want to just give it out willy-nilly. I dunno. It's kind of a bummer, though! Fortunately, I found a fantastic resource that does exactly what I was hoping for!
+## 2
+Download [Atom](https://atom.io/) or any text editor of your choice. I like Atom, but it's also the only one I've ever used, to be fair. In atom, open your directory, and start looking around. Your window should look something like this:
 
-[**Check out Neil Ricci's Pulse Watch tool!**](https://iccir919.github.io/pulseWatch/public/index.html)
+<figure>
+  <img src="atom_1.png">
+  <figcaption>Note - if your file directory on the left disappears, press ctrl + \ to bring it back.</figcaption>
+</figure>
 
-If you provide this website access to your fitbit account (you'll need your signin info), it'll prompt you with the option to choose either inter or intra day data, as you can see below.
+## 3
+If you're like me, you won't have a folder called "layouts" yet. Create the folder, and then create another folder within layouts called 'partials'. Now, here's the cool part. We're going to use the HTML files provided by on the wowchemy github directory, found [##here##](https://github.com/wowchemy/wowchemy-hugo-modules/tree/d4ecdca0eb969bb046067f175ce03dce9e0637d9/wowchemy/layouts/partials). Scroll down on this page until you find "navbar.html" and save the file. If you don't know how to save files from GitHub, you can just click the filename, and then on the subsequent page, click the "raw" button, and then press ctrl + s to save the page as an html file.
 
-{{< figure src="/media/heartrate_viz_photos/options.PNG" caption="Inter/Intra" >}}
+## 4
+Now that you have the navbar.html file in your downloads, move it to that layouts/partials folder that you made before. Now, double click the file, and Atom should open it as a text document that you can edit. Look at line ~15:
 
-I used intraday, because I was only interested in one day, but I'll include screenshots of both, because it's a great website, and Neil did an amazing job with it.
->## Intra-day HR!
-{{< figure src="/media/heartrate_viz_photos/intraday_hr.PNG" >}}
+        <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+          <div class="container-xl">
 
->## Inter-day HR!
-{{< figure src="/media/heartrate_viz_photos/interday_hr.PNG" >}}
+            {{if $show_logo}}
+            <div class="d-none d-lg-inline-flex">
+              <a class="navbar-brand" href="{{ "/" | relLangURL }}">
 
+and, before it, copy and paste the BELOW chunk of code:
+        <head>
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+          />
+        </head>
+This will add Animate.css, a library of ready-to-use, cross-browser animations, directly to your page. Next step!
 
-As for the actual coding - I used Python! Python is popular for data viz, and, in my experience, for good reason. The plotly package ([install guide & documentation found **HERE!**](https://pypi.org/project/plotly)) was fantastic - I had to learn the ins and outs as I went, but I didn't have any significant issues. I love their gradient color scales. The one I selected was arbitrary, I just thought it was nice to look at. If you don't like this one, here's some others they offer, as well as a [hyperlink](https://plotly.com/python/builtin-colorscales/) to the page where you can find a full list!
+## 5
+Navigate to your root folder, and look for the folder labeled "assets". Open it, and, if it doesn't exist, create a new folder within assets called "scss". Within the folder "scss", create a new file called "custom.scss"
+Your directory should look exactly like this!
+<figure>
+  <img src="atom_2.png">
+  <figcaption>Note: Ignore the wowchemy folder in my directory.</figcaption>
+</figure>
 
-{{< figure src="/media/heartrate_viz_photos/gradient_colorscales.PNG" >}}
+## 6
+Open custom.scss, and take a look at your beautifully empty file. Let's get to work. I'm no CSS expert, but it doesn't take a genius to get this next part done. Copy + paste the following code into the file, and save. If you want a different effect than the one you saw above, just swap "wobble" for the effect you'd like! If you'd like the animation to be shorter/longer, change 2s to be 1s, or 10s. I'm not quite sure what both does (the other two options are forward and backward), so just leave 'both' alone, unless you know what you're doing.
+        .navbar {
+          animation: wobble 2s both;
+        }
 
-Plotly allows you to export your graphs as jupyter notebook and standalone HTML files, but it also allows for online hosting through the [**Chart Studio Cloud Platform!**](https://chart-studio.plotly.com/) I might make a post that walks line by line through my code to create this visualization later, when I get more comfortable with using Hugo (the GitHub-oriented (is that a thing? GitHub-oriented?? whatever) website builder I'm using).
-
-Anyway, plotly was an easy package to use, and the cloud platform was great! It allowed me to export my visualization as an HTML iframe, which I easily popped into the Hugo config files. I have very little experience with HTML, but learning how to format this very blog post gave me a nice crash-course. I'm learning ways to be more efficient as I go. In the beginning, I was manually editing things in GitHub in browser, and that felt pretty terrible. Switching to the desktop app was great. I'm thinking that I must be missing another piece of the puzzle, though. Having to deploy my website through netlify and waiting for the website to load every time I want to see my changes is pretty rough. Oh well, I'll figure the rest out as I go!
-
-Just as a fun little tradition, I'm going to include either a photo I've taken or that I really like in each of these blog posts.
-
->This post's photo is...
-
-{{< figure src="/media/heartrate_viz_photos/dinos.PNG" >}}
+## 7
+Lovely! Save your work, and open GitHub desktop, and push your changes to origin. Navigate over to your netlify/deploy page, and wait for your homepage to update. 
