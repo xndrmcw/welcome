@@ -36,12 +36,12 @@
   }
 }
 .navbar {
-  animation: slide-in-left 1.5s cubic-bezier(0.83, 0, 0.17, 1);
+  animation: fade-in cubic-bezier(0.83, 0, 0.17, 1);
   height: 70px;
   background: $sta-menu-primary;
 /* this is the part that takes out the shadow & the only edit */
   box-shadow: none;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 900 !important;
   position: fixed;
   top: 0;
