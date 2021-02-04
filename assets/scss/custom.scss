@@ -36,6 +36,7 @@
   }
 }
 .navbar {
+  animation: slide-in-left 1.5s cubic-bezier(0.83, 0, 0.17, 1);
   height: 70px;
   background: $sta-menu-primary;
 /* this is the part that takes out the shadow & the only edit */
