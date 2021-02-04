@@ -1,5 +1,5 @@
 ---
-title: Homework Assignment \#1 for MA347.
+title: Homework Assignment No. 1 for MA347.
 
 image:
   focal_point: ""
@@ -82,7 +82,7 @@ tags: ['Homework']
         table(glm.pred, valid.data$Competitive)
         library(pROC)
         roc = roc(valid.data$Competitive, pred, plot=TRUE)
-<img src="featured.png">
+<img src="featured.png" weight="60%">
 
         #Predicted values for training set.
         pred2 <- predict(mod_1, newdata = train.data, type="response")
@@ -91,7 +91,7 @@ tags: ['Homework']
         glm.pred2 <- ifelse(pred2 > 0.5, "1", "0")
         library(pROC)
         roc2 = roc(train.data$Competitive, pred2, plot=TRUE)
-<img src="roc2.png">
+<img src="roc2.png" weight="60%">
 
         Question 7
         Validation AUC
