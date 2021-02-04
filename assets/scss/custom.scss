@@ -22,19 +22,19 @@
   }
 #profile {
   animation: slide-in-left 1s cubic-bezier(0.83, 0, 0.17, 1)
-}
-.interests-div {
-  opacity: 0;
-  animation: fade-in 1s forwards;
-  animation-delay: 1s;
-}
+  }
+  .interests-div {
+    opacity: 0;
+    animation: fade-in 1s forwards;
+    animation-delay: 1s;
+  }
 
-.education-div {
-  opacity: 0;
-  animation: fade-in 1s forwards;
-  animation-delay: 1.5s;
-}
-#navbar{
-  background-color: red
-}
-}
+  .education-div {
+    opacity: 0;
+    animation: fade-in 1s forwards;
+    animation-delay: 1.5s;
+  }
+  .navbar navbar-light fixed-top navbar-expand-lg py-0 {
+    background-color: red
+  }
+  }
