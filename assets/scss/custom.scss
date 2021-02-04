@@ -35,7 +35,7 @@
     animation-delay: 1.5s;
   }
 #navbar-main
-  .navbar-brand {
+  .navbar.navbar-light.fixed-top.navbar-expand-lg.py-0 {
     background-color: red
   }
 }
