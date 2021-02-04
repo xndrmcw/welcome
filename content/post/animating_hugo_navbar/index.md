@@ -38,8 +38,6 @@ tags: ['Hugo Customization']
 
 ---
 
-<iframe src="https://giphy.com/embed/Z4SvjxhzXkHEeTTFpW" width="480" height="74" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Z4SvjxhzXkHEeTTFpW">via GIPHY</a></p>
-
 ## I'm a little bit embarrassed by how long it took me to figure this out, but, as I've mentioned in other posts, I've never used HTML/CSS before, so this stuff is completely new to me!
 
 Hello! If you're like me, that is:
@@ -51,6 +49,9 @@ Hello! If you're like me, that is:
 >Confused
 
 Look no further! I'm going to walk you through an example of how you can add animations to the navigation bar, but the same concept applies to nearly any element on the page.
+
+<iframe src="https://giphy.com/embed/dM6nCTSrj1ZUMXGQst" width="480" height="198" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dM6nCTSrj1ZUMXGQst">via GIPHY</a></p>
+
 
 First, let's clarify what I'm referring to when I say navbar.
 
@@ -160,3 +161,5 @@ If you want a different effect than the one I used, just swap `wobble` for the e
 
 ## 7
 Lovely! Save your work, and open GitHub desktop, and push your changes to origin. Navigate over to your netlify/deploy page, and wait for your homepage to update.
+
+<iframe src="https://giphy.com/embed/Z4SvjxhzXkHEeTTFpW" width="480" height="74" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Z4SvjxhzXkHEeTTFpW">via GIPHY</a></p>
