@@ -37,6 +37,9 @@ tags: ['Hugo Customization']
 
 
 ---
+
+{{< figure src="mysite_gif.gif" >}}
+
 ## I'm a little bit embarrassed by how long it took me to figure this out, but, as I've mentioned in other posts, I've never used HTML/CSS before, so this stuff is completely new to me!
 
 Hello! If you're like me, that is:
