@@ -83,7 +83,7 @@ If you're like me, you won't have a folder called "layouts" yet. Create the fold
   <figcaption>Ignore the folders called widgets and shortcodes, as well as the custom_js.html file. If you already have this directory, just continue onward!</figcaption>
 </figure>
 
-Now, here's the cool part. We're going to use the HTML files provided by on the wowchemy github directory, found [!here](https://github.com/wowchemy/wowchemy-hugo-modules/tree/d4ecdca0eb969bb046067f175ce03dce9e0637d9/wowchemy/layouts/partials). Scroll down on this page until you find "navbar.html" and save the file.
+Now, here's the part that took me forever to figure out. We're going to use the HTML files provided by on the wowchemy github directory, found [here](https://github.com/wowchemy/wowchemy-hugo-modules/tree/d4ecdca0eb969bb046067f175ce03dce9e0637d9/wowchemy/layouts/partials). Scroll down on this page until you find "navbar.html" and save the file.
 
 <figure>
   <img src="github_2.png">
@@ -153,7 +153,7 @@ Open custom.scss, and take a look at your beautifully empty file. Let's get to w
           animation: wobble 2s cubic-bezier(0.83, 0, 0.17, 1) both;
         }
 
-If you want a different effect than the one I used, just swap <p> style ="font-family:dm mono,monospace;color: #2196ba;font-size: .8rem;background-color: #fff""wobble"</p> for the effect you'd like! If you'd like the animation to be shorter/longer, change 2s to be 1s, or 10s. I'm not quite sure what both does (the other two options are forward and backward), so just leave 'both' alone, unless you know what you're doing.
+If you want a different effect than the one I used, just swap `wobble` for the effect you'd like! If you'd like the animation to be shorter/longer, change `2s`. I'm not quite sure what `both` does (the other two options are forward and backward), so just leave it alone unless you know what you're doing (I certainly don't).
 
 ## 7
 Lovely! Save your work, and open GitHub desktop, and push your changes to origin. Navigate over to your netlify/deploy page, and wait for your homepage to update.
