@@ -1,11 +1,37 @@
 #about {
   /* Some CSS will go here soon! */
   /* comment, comment, comment... */
-  @keyframes slide-in {
-    0% {transform: translateX(150%)}
+  @keyframes slide-in-right {
+    0% { transform: translateX(150%)}
     100% { transform: translateX(0%); }
   }
-  .biography-title {
-    animation: slide-in 1s forwards;
+  @keyframes slide-in-left {
+    0% {transform: translateX(-150%)}
+    100% {transform: translateX(0%); }
   }
+  @keyframes fade-in {
+    0% {opacity: 0}
+    100% {opacity: 1}
+  }
+  .biography-title {
+    animation: slide-in-right 1s cubic-bezier(0.83, 0, 0.17, 1) forwards;
+  }
+  .main-title {
+    animation: slide-in-right 1s cubic-bezier(0.83, 0, 0.17, 1) forwards;
+    animation-delay: 100ms;
+  }
+#profile {
+  animation: slide-in-left 1s cubic-bezier(0.83, 0, 0.17, 1)
+}
+.interests-div {
+  opacity: 0;
+  animation: fade-in 1s forwards;
+  animation-delay: 1s;
+}
+
+.education-div {
+  opacity: 0;
+  animation: fade-in 1s forwards;
+  animation-delay: 1.5s;
+}
 }
