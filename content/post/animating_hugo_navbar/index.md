@@ -38,7 +38,7 @@ tags: ['Hugo Customization']
 
 ---
 
-{{< figure src="mysite_gif.gif" >}}
+<iframe src="https://giphy.com/embed/Z4SvjxhzXkHEeTTFpW" width="480" height="74" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Z4SvjxhzXkHEeTTFpW">via GIPHY</a></p>
 
 ## I'm a little bit embarrassed by how long it took me to figure this out, but, as I've mentioned in other posts, I've never used HTML/CSS before, so this stuff is completely new to me!
 
@@ -54,7 +54,7 @@ Look no further! I'm going to walk you through an example of how you can add ani
 
 First, let's clarify what I'm referring to when I say navbar.
 
-<iframe src="https://giphy.com/embed/Z4SvjxhzXkHEeTTFpW" width="480" height="74" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Z4SvjxhzXkHEeTTFpW">via GIPHY</a></p>
+{{< figure src="navbar_1.PNG" >}}
 
 This is your navbar! Let's say you're interested in adding a slick animation from https://animate.style/ to it.
 
