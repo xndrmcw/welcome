@@ -36,8 +36,7 @@
   }
 }
 .navbar {
-  animation: flipInX 1s both;
-  animation-delay: 0.5s;
+  animation: backInLeft 1s both;
   height: 70px;
   background: $sta-menu-primary;
 /* this is the part that takes out the shadow & the only edit */
@@ -50,4 +49,7 @@
   left: 0;
   z-index: 1030;
   padding: 0 1rem;
+}
+.nav-link {
+  color: #B2D5F5;
 }
