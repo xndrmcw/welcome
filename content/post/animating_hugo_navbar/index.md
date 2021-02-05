@@ -28,7 +28,7 @@ links:
 - icon: youtube
   icon_pack: fab
   name: Video Tutorial
-  url: https://github.com/xndrmcw/heartrate_vis
+  url: https://www.youtube.com/channel/UCAri7pV6nwKFUvC4wFIRQYA
 
 authors:
 - admin
