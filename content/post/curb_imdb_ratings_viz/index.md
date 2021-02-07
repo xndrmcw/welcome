@@ -7,7 +7,7 @@ image:
   preview_only: True
 
 # Link this post with a project
-projects: ['']
+projects: ['curb_viz']
 
 # Date published
 date: "2021-02-07T00:00:01Z"
@@ -48,14 +48,15 @@ tags: ['Data Visualization']
 
 
 ---
+## I love Curb Your Enthusiasm (and you should, too!)
 
 <figure>
   <img src="curb_therapist.png">
   <figcaption>Pictured above: me telling my friends how much time it took to get the right fonts, background, hex color, etc...</figcaption>
 </figure>
 
-## In this post, I'll detail how I created an IMDB score visualization.
-## I love Curb Your Enthusiasm (and you should, too!)
+## In this post, I'll describe how I created a pretty basic IMDB score visualization.
+
 
 This is the second visualization I've created using R-Studio! Refamiliarizing myself with the syntax of the language was a bit challenging, but having a [great example + accompanying code](https://isabella-b.com/blog/tidy-tuesday-the-office/) to use for guidance/inspiration helps like nothing else!
 
@@ -65,7 +66,7 @@ The data comes from IMDB, and I used [Jainajun7's Python webscraper](https://git
 
 <img src="curb_graph.png">
 
-I've never used (or even seen) the function geom_violin before, but I really liked how it looked, so I stuck with it! I took a shot at creating my own color palette (Isabella uses the Spectral color brewer, but I was hoping to create something that fit the 'curb' theme a little better,) but, as it turns out, I'm not a graphic designer, and I couldn't pull together a palette that I liked more than the default rainbow, so I stuck with it.
+I've never used (or even seen) the geom_violin function before, but I really liked how it looked, so I stuck with it! I took a shot at creating my own color palette (Isabella uses the Spectral color brewer, but I was hoping to create something that fit the 'curb' theme a little better,) but, as it turns out, I'm not a graphic designer, and I couldn't pull together a palette that I liked more than the default rainbow, so I stuck with it.
 
 Honestly, most of the time spent on this project was devoted towards figuring out how to apply a background image in ggplot, as well as sizing everything correctly (again, it's all new to me!)
 
@@ -73,7 +74,7 @@ That being said, I like how it came out. It's definitely not perfect, and I don'
 
 I showed some of my friends/family, and they were a bit confused by how to interpret the violin plot, and I had to explain it to them. While I think it's safe to assume that anyone who's reading this post will probably what it means, I'll explain it here, for my own sake:
 
-<img src="seasons_1_2.PNG", height="30%">
+<img src="seasons_1_2.PNG" height="30%">
 
 <p style="color:#ffc801;">By using a violin plot, we are able to illustrate the frequency of specific y-values, when grouped by a defined x-value (in this case, we're able to see the frequency of scores by season.) </p>
 
@@ -86,6 +87,6 @@ I know that's not the best description ever, but I think once someone is pointed
 That's all for this post! I'm going to make another one of these soon - they're really such a blast.
 
 <figure>
-  <img src="curb_water.png">
+  <img src="curb_water.jpg">
   <figcaption>"Okay, seriously - how do I get graph lines to draw above the background image AND the violins???"</figcaption>
 </figure>
