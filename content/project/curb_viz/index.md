@@ -31,10 +31,6 @@ links:
 #slides: example
 ---
 
-## This is the visualization!
-
-<img src="content/post/curb_imdb_ratings_viz/curb_graph.png">
-
 ## This is the project page associated with my blog post, found [**here.**](https://xndrmcw.netlify.app/post/curb_imdb_ratings_viz/)
 
 ## Here's the code!
@@ -173,4 +169,4 @@ links:
 
 
         curb_graph + ggsave("curb_graph.png", device = "png", width = 11, height = 8, type = "cairo", dpi = 300)
-        # saves the graph as a png in the current working directory.
+        # saves the graph as a png in the current working directory. width and height are inches, dpi is resolution
