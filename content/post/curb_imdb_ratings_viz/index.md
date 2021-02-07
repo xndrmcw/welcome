@@ -52,7 +52,7 @@ tags: ['Data Visualization']
 
 <figure>
   <img src="curb_therapist.png">
-  <figcaption>Pictured above: me telling my friends how much time it took to get the right fonts, background, hex color, etc...</figcaption>
+  <figcaption>Pictured above: me telling my roommates how hungry I am but how little I want to actually cook something</figcaption>
 </figure>
 
 ## In this post, I'll describe how I created a pretty basic IMDB score visualization.
@@ -74,17 +74,15 @@ That being said, I like how it came out. It's definitely not perfect, and I don'
 
 I showed some of my friends/family, and they were a bit confused by how to interpret the violin plot, and I had to explain it to them. While I think it's safe to assume that anyone who's reading this post will probably what it means, I'll explain it here, for my own sake:
 
-<img src="seasons_1_2.PNG" height="30%">
+><p style="color:#ffc801;">By using a violin plot, we are able to illustrate the frequency of specific y-values, when grouped by a defined x-value (in this case, we're able to see the frequency of scores by season.) </p>
 
-<p style="color:#ffc801;">By using a violin plot, we are able to illustrate the frequency of specific y-values, when grouped by a defined x-value (in this case, we're able to see the frequency of scores by season.) </p>
+><p style="color:#ffc801;">Looking at this graph, we note that season 1 has a wide midsection, thus, season 1 has many episodes that scored ~8.5/10 on IMDB.</p>
 
-<p style="color:#ffc801;">Looking at this graph, we note that season 1 has a wide midsection, thus, season 1 has many episodes that scored ~8.5/10 on IMDB.</p>
+><p style="color:#ffc801;">Let's look at season 2. This violin is very narrow, which means that the scores ranged all over, and didn't sit in any particular scoring region.</p>
 
-<p style="color:#ffc801;">Let's look at season 2. This violin is very narrow, which means that the scores ranged all over, and didn't sit in any particular scoring region.</p>
+I know that's not the best description ever, but I think the gist of it is pretty simple.
 
-I know that's not the best description ever, but I think once someone is pointed in the right direction, they'll get it pretty quickly.
-
-That's all for this post! I'm going to make another one of these soon - they're really such a blast.
+That's all for this post! I'm going to make another TV ratings visualization soon - they're really such a blast.
 
 <figure>
   <img src="curb_water.jpg">
