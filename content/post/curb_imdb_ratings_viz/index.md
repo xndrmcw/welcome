@@ -54,9 +54,10 @@ tags: ['Data Visualization']
   <figcaption>Pictured above: me telling my friends how much time it took to get the right fonts, background, hex color, etc...</figcaption>
 </figure>
 
-## In this post, I'll detail how I created this visualization. I love Curb Your Enthusiasm (and you should, too!), and I had a lot of fun working with this data and remembering old episodes.
+## In this post, I'll detail how I created an IMDB score visualization.
+## I love Curb Your Enthusiasm (and you should, too!)
 
-This is the second visualization I've created with R-Studio! Refamiliarizing myself with the syntax of the language was a bit challenging, but having a [great example + accompanying code](https://isabella-b.com/blog/tidy-tuesday-the-office/) to use for guidance/inspiration helps like nothing else!
+This is the second visualization I've created using R-Studio! Refamiliarizing myself with the syntax of the language was a bit challenging, but having a [great example + accompanying code](https://isabella-b.com/blog/tidy-tuesday-the-office/) to use for guidance/inspiration helps like nothing else!
 
 The data comes from IMDB, and I used [Jainajun7's Python webscraper](https://github.com/jainanuj7/IMDb-ratings-scraper/blob/master/IMDb.py) to write the data to a CSV file. From there, I just switched some variable names around, and imported the data in the same manner that Isabella did.
 
@@ -72,10 +73,19 @@ That being said, I like how it came out. It's definitely not perfect, and I don'
 
 I showed some of my friends/family, and they were a bit confused by how to interpret the violin plot, and I had to explain it to them. While I think it's safe to assume that anyone who's reading this post will probably what it means, I'll explain it here, for my own sake:
 
->By using a violin plot, we are able to illustrate the frequency of specific y-values, when grouped by a defined x-value (in this case, we're able to see the frequency of scores by season.)
+<img src="seasons_1_2.PNG", height="30%">
 
-<img src="seasons_1_2.PNG">
+<p style="color:#ffc801;">By using a violin plot, we are able to illustrate the frequency of specific y-values, when grouped by a defined x-value (in this case, we're able to see the frequency of scores by season.) </p>
 
->Looking at this graph, we note that season 1 has a wide midsection, thus, season 1 has many episodes that scored ~8.5/10 on IMDB.
+<p style="color:#ffc801;">Looking at this graph, we note that season 1 has a wide midsection, thus, season 1 has many episodes that scored ~8.5/10 on IMDB.</p>
 
->Let's look at season 2. This violin is very narrow, which means that the scores ranged all over, and didn't sit in any particular scoring region.
+<p style="color:#ffc801;">Let's look at season 2. This violin is very narrow, which means that the scores ranged all over, and didn't sit in any particular scoring region.</p>
+
+I know that's not the best description ever, but I think once someone is pointed in the right direction, they'll get it pretty quickly.
+
+That's all for this post! I'm going to make another one of these soon - they're really such a blast.
+
+<figure>
+  <img src="curb_water.png">
+  <figcaption>"Okay, seriously - how do I get graph lines to draw above the background image AND the violins???"</figcaption>
+</figure>
