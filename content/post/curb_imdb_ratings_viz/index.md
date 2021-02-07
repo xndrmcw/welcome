@@ -48,8 +48,8 @@ tags: ['Data Visualization']
 
 
 ---
-
-<img src="/images/curb_therapist.png">
+## Pictured below - me telling my friends how hard it was to get the right fonts, background, hex color, etc...
+<img src="curb_imdb_ratings_viz/images/curb_therapist.png">
 
 ## In this post, I'll detail how I created this visualization. I love Curb Your Enthusiasm (and you should, too!), and I had a lot of fun working with this data and remembering old episodes.
 
@@ -59,7 +59,7 @@ The data comes from IMDB, and I used [Jainajun7's Python webscraper](https://git
 
 ## Here it is!
 
-<img src="/images/curb_graph.png">
+<img src="curb_imdb_ratings_viz/images/curb_graph.png">
 
 I've never used (or even seen) the function geom_violin before, but I really liked how it looked, so I stuck with it! I took a shot at creating my own color palette (Isabella uses the Spectral color brewer, but I was hoping to create something that fit the 'curb' theme a little better,) but, as it turns out, I'm not a graphic designer, and I couldn't pull together a palette that I liked more than the default rainbow, so I stuck with it.
 
@@ -71,7 +71,7 @@ I showed some of my friends/family, and they were a bit confused by how to inter
 
 >By using a violin plot, we are able to illustrate the frequency of specific y-values, when grouped by a defined x-value (in this case, we're able to see the frequency of scores by season.)
 
-<img src="/images/seasons_1_2.png">
+<img src="curb_imdb_ratings_viz/images/seasons_1_2.PNG">
 
 >Looking at this graph, we note that season 1 has a wide midsection, thus, season 1 has many episodes that scored ~8.5/10 on IMDB.
 
