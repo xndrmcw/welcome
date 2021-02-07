@@ -37,17 +37,18 @@ links:
 
 ## This is the project page associated with my blog post, found [**here.**](https://xndrmcw.netlify.app/post/curb_imdb_ratings_viz/)
 
-Here's the code!
+## Here's the code!
 
         library(tidyverse)
         library(extrafont)
         library(png)
         library(grid)
-        loadfonts(device = "win")
+        loadfonts(device = "win") #loads fonts
         setwd("C:/Users/Alexander/Desktop/Fun Programming/curb_visualization")
         curb_ratings <- read.csv('curb_imdb.csv')
 
         theme_set(theme_grey())
+        # sets a default theme, which I update to have the text/sizes that i want
         theme <- theme_update(axis.title.x = element_text("Franklin Gothic Heavy", size = 20, color = "black"),
                               axis.title.y = element_text("Franklin Gothic Heavy", size = 24, color = 'black'),
                               plot.title = element_text("Franklin Gothic Heavy", size = 48, color = "black"),
@@ -60,6 +61,7 @@ Here's the code!
                               panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
                                                               colour = "white"))
 
+        # defines a png image as a variable
         curb_background <- png::readPNG("curb_graphic.png")
 
         curb_graph <- curb_ratings %>%
@@ -69,14 +71,18 @@ Here's the code!
                                        width = unit(1,"npc"),
                                        height = unit(1,"npc")),
                             -Inf, Inf, -Inf, Inf) +
+          # above line adds the png from before as the background
           geom_vline(aes(xintercept = Season), color = "white") +
           geom_hline(yintercept = c(7, 8, 9, 10), color = "white") +
+          # draws in the axis lines because the curb image covers them
           geom_violin(show.legend = FALSE,
                       draw_quantiles = TRUE,
                       color = "gray90") +
+          # adds the violins AFTER both of those first two things, so they'll be on otp
           labs(title = "Curb Your Enthusiasm", x = "Season", y = "IMDb Rating") +
           scale_fill_brewer(palette = ("Spectral"))+
           scale_y_continuous(expand = expansion(mult = c(0,0)), limits = c(7,10)) +
+          # sets the upper and lower limits that the y-axis will show
           theme(axis.title.y = element_text(family = "Franklin Gothic Heavy"),
                 axis.title.x = element_text(size = 25)) +
           annotate(geom = "label", x = 1, y = 7.35, size = 4, ## label
@@ -161,8 +167,10 @@ Here's the code!
                  color = "#3288BD",
                  #label.size = NA,
                  fill = "white")  
-        #scale_fill_manual(values = curb_palette)
+        # adds the labels. like isabella said in her code, there must be a better way to
+        # do this, but I don't know it.
         curb_graph
 
 
         curb_graph + ggsave("curb_graph.png", device = "png", width = 11, height = 8, type = "cairo", dpi = 300)
+        # saves the graph as a png in the current working directory.
