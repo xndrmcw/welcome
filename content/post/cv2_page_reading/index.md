@@ -44,13 +44,13 @@ tags: ['Computer Vision']
 
 
 ---
-## Oh, the things computers enable us to do.
+## Oh, the things computers enable us to do. Take a look at the image below. Can you read what it says? Not really, right?
 
 <figure>
   <img src="bookpage.jpg">
 </figure>
 
-## Take a look at this image. Can you read what it says? Not really, right? Well, check this out. With the following chunk of `code`...
+## Well, check this out. With the following chunk of `code`...
 
         import cv2
         import numpy as np
@@ -71,7 +71,7 @@ tags: ['Computer Vision']
 ## Now you can!
 
 <figure>
-  <img src="gaussian.jpg">
+  <img src="gaussian.png">
 </figure>
 
 ## Isn't that sick? Thanks to sentdex for the awesome video series on using CV2.
