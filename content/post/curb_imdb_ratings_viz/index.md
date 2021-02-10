@@ -1,5 +1,5 @@
 ---
-title: Another Day, Another Post Inspire by Isabella Benabaye. Curb Your Enthusiasm's IMDB ratings, visualized!
+title: Another Day, Another Post Inspired by Isabella Benabaye. Curb Your Enthusiasm's IMDB ratings, visualized!
 
 image:
   focal_point: ""
