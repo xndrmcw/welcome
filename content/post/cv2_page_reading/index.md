@@ -30,17 +30,11 @@ links:
   name: sentdex's video
   url: https://www.youtube.com/watch?v=jXzkxsT9gxM&list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq&index=6
 
-- icon: github
-  icon_pack: fab
-  name: My Code
-  url: https://github.com/xndrmcw/lifespan_viz
-
-
 
 authors:
 - admin
 
-tags: ['Computer Vision']
+tags: ['Computer Vision', 'CV2']
 
 
 ---
