@@ -27,7 +27,7 @@ design:
 links:
 - icon: laptop-code
   icon_pack: fas
-  name: TensorFlow's Tutorial
+  name: TensorFlow Tutorial
   url: https://www.tensorflow.org/tutorials/keras/classification
 - icon: github
   icon_pack: fab
@@ -42,30 +42,39 @@ tags: ['Keras', 'TensorFlow', 'Machine Learning', 'Image Classification']
 
 
 ---
-## Okay, here we go. I was messing around on GitHub, looking at the most starred repos, and I stumbled across TensorFlow. I've seen "tensorflow" pop up on stackoverflow, youtube, and wherever else, but I really didn't know what it was. I knew that it was probably something I should know, but I just didn't. So, I decided to try to familiarize myself!
+## Okay, here we go.
 
-So, where to start? I guess as good a place as any would be with a working definition of tensorflow.
+I was on GitHub, looking at the most starred repos, and there was TensorFlow, sitting pretty at #4. I've heard it mentioned plenty of times (youtube, stackoverflow, etc), and ,as such, I knew that it was probably something I should have a degree of familiarity with. So, I decided to try to familiarize myself!
 
-><p style="color:#ffc801;">TensorFlow is an open-source software library for machine learning.</p>
+## But where to start?
 
-Well, great, but what does that really *mean*? I'll try my best to break it down...
+><p style="color:#ff9a17;">I guess a place as any would be with a working definition of what exactly TensorFlow is, and how it came to be.</p>
 
-><p style="color:#ffc801;">Back in the early 2010's, Google Brain (a group of very smart people at Google) put together a system of machine learning tools. It was used widely by programmers at Google in both research and commercial capacities. It was called...</p>
+## So, what is TensorFlow?
+
+TensorFlow is an open-source software library for machine learning.
+
+><p style="color:#ff9a17;">Well, okay, cool, but what does that really *mean*? I'll try my best to break it down...</p>
+
+Back in the early 2010's, Google Brain (a group of very smart people at Google) put together a system of machine learning tools. It was used widely by programmers at Google in both research and commercial capacities. It was called...
 
 ## DistBelief
 
-Ehhh... not as cool of a name, IMO. So, anyway, what does all that stuff above mean?
+><p style="color:#ff9a17;">TensorFlow is a cooler name, IMO. So, anyway, what does all that stuff above mean?</p>
 
-><p style="color:#ffc801;">Put simply: this thing was pretty good at what it did, and engineers liked to use it.</p>
+Put simply: this thing was pretty good at what it did, and engineers liked to use it.
 
-But, as with anything, there was room for improvement. So. Google execs assigned a few academic studs to make it better! Jeff Dean was one of those folk, although there were certainly other computer scientists working their tushies off as well! Dean and the team transformed DistBelief into...
+><p style="color:#ff9a17;">But, as with anything, there was room for improvement. So. Google execs assigned a few academic studs to make it better! Jeff Dean was one of those folk, although there were certainly other computer scientists working their tushies off as well! Dean and the team transformed DistBelief into...</p>
+
 
 <figure>
   <img src="featured.png">
   <figcaption>TensorFlow!</figcaption>
 </figure>
 
-This new version was faster and more robust. After a few years, Google released TensorFlow 1.0 to the public! You can install and import it with your favorite Python IDE, as well as C++, Java, and a [few others.](https://www.tensorflow.org/learn)
+
+><p style="color:#ff9a17;">This new version was faster and more robust. After a few years, Google released TensorFlow 1.0 to the public! You can install and import it with your favorite Python IDE, as well as C++, Java, and a [few others.](https://www.tensorflow.org/learn)</p>
+
 
 Once it's imported, you have access to a bunch of fancy-shmancy machine learning tools! You can build, deploy, and make predictions with models, all from the comfort of your laptop! It's pretty sweet, honestly.
 
