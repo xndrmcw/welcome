@@ -229,10 +229,20 @@ TensorFlow provides a nice tutorial for building a predictive model using this m
         print("\nTest Accuracy:", test_acc)
         Test Accuracy: 0.875
 
-><p style="color:#ff9a17;">The model performs slightly worst on the test data (90.84% on training vs 87.5% on test.) This is to be expected!</p>
-><p style="color:#ff9a17;"></p>
-><p style="color:#ff9a17;"></p>
+><p style="color:#ff9a17;">The model performs slightly worst on the test data (90.84% on training vs 87.5% on test.) This is to be expected! Now, let's write some code that'll help us interpret our data, and create some visualizations to accompany our predictions. Note: I'm going to withhold some of the code here, because it's bulky. If you want to see all of it, check GitHub!</p>
 
+<figure>
+  <img src="misclass_shoe.png">
+  <figcaption>Here, we can see a datapoint that our model had trouble with. We can clearly interpret the image to be a shoe, but our model interpreted it as a bag 62% of the time.</figcaption>
+</figure>
 
+><p style="color:#ff9a17;">As you can see above, our mode isn't perfect. It's pretty good, though! Take a look at some our other prediction graphics.</p>
 
-With TensorFlow, you can train a model to predict digits yourself! That's pretty cool, but the TensorFlow documentation page suggests you trying something with a bit more spice.
+<figure>
+  <img src="5x5_class.png">
+  <figcaption>Much better!</figcaption>
+</figure>
+
+## To conclude...
+
+If you're looking for a machine learning library filled to the brim with tools, TensorFlow is a good place to look. This project was fun and easy to run through, and the code is actually pretty intuitive for such a complex subject. Hopefully I'll be able to harness some of its capabilities in a project of my own, down the line!
