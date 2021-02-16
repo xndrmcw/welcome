@@ -10,7 +10,7 @@ headless: true
 weight: 6
 
 title: Homework
-subtitle: It's my last semester of college, so I have some assignments. I figure this is a good place to show the things we're doing in our MA classes at Bentley!
+subtitle: It's my last semester of college & I frontloaded, so I only have a few in-class assignments, but I figure this is a good place to show off some of the things we're doing in our MA classes at Bentley!
 
 content:
   # Page type to display. E.g. post, talk, publication...
