@@ -62,4 +62,6 @@ highlight_name: false
 Hi, I'm Alexander! I'm a senior at Bentley University, and I'm currently excitedly wrapping up my bachelor's in Data Analytics. My senior capstone focuses on natural language processing, whereas my independent research projects this year have centered on fitness device data visualizations and python's computer vision capabilities. I'm looking for a role that allows me to exercise my quantitative and qualitative strengths at a company which fosters growth in its employees and rewards dedication and diligence.
 
 
-{{< icon name="download" pack="fas" >}} If you'd like, take a look at my {{< staticref "media/resume.pdf" "newtab" >}}resumé!{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} If you'd like, take a look at my {{< staticref "media/resume.pdf" "newtab" >}}resumé!{{< /staticref >}}
+
+{{< icon name="download" pack="fas" >}} Also, check out my {{< https://xndrmcw.netlify.app/post/ "newtab" >}}posts!{{< /staticref >}}

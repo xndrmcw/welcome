@@ -206,7 +206,7 @@ TensorFlow provides a nice tutorial for building a predictive model using this m
 
 `{{< figure src="./flatten_gif.gif" link="./flatten_gif.gif" >}}`
 
-><p style="color:#ff9a17;">From my limited understanding, the two "Dense" lines correspond to the last two layers of the neural net. Why? 128 and 10? I don't know. Maybe someday I will, though!</p>
+><p style="color:#ff9a17;">From my limited understanding, the two "Dense" lines correspond to the last two layers of the neural net. Why 128 and 10? I don't know. Maybe someday I will, though!</p>
 
 ><p style="color:#ff9a17;">Next, we need to tweak a few settings, before we apply our model to the dataset. Optimizer, loss, and metrics are all parameters that you can configure if you know what you're doing. If you're like me, and you don't, just leave them be. At a very basic level, we want to minimize loss and have a reasonably high degree of prediction accuracy. Let's run the code and see what we get!</p>
 
