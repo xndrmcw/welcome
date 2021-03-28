@@ -42,20 +42,25 @@ tags: ['Generative Art', 'RStudio']
 
 
 ---
-## It's been a while! The last semester of college has been filled with unexpected surprises; a two week full lockdown, a broken bike, and a lot more. <- That list reads like something out of the song "Read My Mind" by The Killers, hahaha. Anyways, I'm trying to get back on the horse! It's too easy to slack.
+## It's been a while! The last semester of college has been filled with unexpected surprises;
 
+## a two week full lockdown, a broken bike, and a lot more.
+
+## ^^That list reads like something out of the song "Read My Mind" by The Killers, hahaha. Anyways, I'm trying to get back on the horse! It's too easy to slack.
+
+---
 
 ## RStudio is so much fun to play with. I was reading Mine Çetinkaya-Rundel's blog post about her foray into generative art using the `jasmines` package, and it looked awesome, so I gave it a shot! Really fun to play with this package. I feel like an artist!!!
 
-## Take a look at some of the pieces I put together! The accompaying `code` is directly below.
+## Take a look at some of the pieces I put together!
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<src="gen_1.png">|
-|<src="gen_2.png">|
-|<src="gen_3.png">|
-|<src="gen_4.png">|
-|<src="gen_5.png">|
+|<img src="gen_1.png">|
+|<img src="gen_2.png">|
+|<img src="gen_3.png">|
+|<img src="gen_4.png">|
+|<img src="gen_5.png">|
 
 
 ## Boop! The accompanying `code`...
