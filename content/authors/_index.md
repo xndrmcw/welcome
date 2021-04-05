@@ -1,5 +1,11 @@
 ---
-cms_exclude: true
+cms_exclude: false
+
+# Generate Wowchemy CMS
+type: wowchemycms
+outputs:
+  - wowchemycms_config
+  - HTML
 
 # To publish author profile pages, remove all of the `_build` and `cascade` settings below.
 _build:
