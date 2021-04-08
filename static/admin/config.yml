@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: xndrmcw/xndrmcw # Branch to update (optional; defaults to master)
   branch: master
 publish_mode: editorial_workflow
