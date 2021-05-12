@@ -24,6 +24,7 @@ featured: true
 design:
   columns: '2'
 
+links:
 - icon: github
   icon_pack: fab
   name: My Code!
