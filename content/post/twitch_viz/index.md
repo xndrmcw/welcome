@@ -10,7 +10,7 @@ image:
 projects: ['twitch_viz']
 
 # Date published
-date: "2021-0-12T00:00:01Z"
+date: "2021-05-12T00:00:01Z"
 
 # Date updated
 lastmod: "2021-05-12 T00:00:00Z"
