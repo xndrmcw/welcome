@@ -28,7 +28,7 @@ experience:
     location: Boston, MA!
     date_start: '2021-02-01'
     date_end: '2021-05-01'
-    description: |
+    description: |2-
     - Utilized Google BigQuery on MIMIC-IV, a relational database containing comprehensive information for real hospital stays of patients admitted to a academic medical center in Boston, MA, USA.
     - Worked closely with Bentley University Professor Reagan Mozer, where, using RStudio, I learned to clean and pre-process health data, which was used for blood transfusion survival/medical study analysis.
 
@@ -38,7 +38,7 @@ experience:
     location: Waltham
     date_start: '2020-09-01'
     date_end: '2021-05-01'
-    description: |
+    description: |2-
      -	Developed a comprehensive Honors Capstone project focused on text analysis & Natural Language Processing.
      -	Analyzed reddit.com/r/movies comment data using R-Studio - developed an annotated guide for beginners. Full capstone report can be found on website.
 
