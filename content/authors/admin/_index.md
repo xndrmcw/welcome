@@ -66,4 +66,4 @@ During my last semester, I was also research affiliate at M.I.T., where I used G
 
 {{< icon name="download" pack="fas" >}} If you'd like, take a look at my {{< staticref "media/resume.pdf" "newtab" >}}resumé!{{< /staticref >}}
 
-{{< icon name="download" pack="fas" >}} Or, if you have a second, my {{< staticref "media/capstone.pdf" "newtab" >}}capstone!{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Or, if you have a minute, here's my {{< staticref "media/capstone.pdf" "newtab" >}}capstone!{{< /staticref >}}
