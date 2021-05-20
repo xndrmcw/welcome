@@ -93,14 +93,14 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "175 Forest Street", city = "Waltham", region = "MA", postcode = "02452", country = "United States", country_code = "US"}
+address = ''
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "42.3856", longitude = "-71.2218"}
+coordinates = ''
 
 # Directions for visitors to locate you.
-directions = "Let's talk through zoom or email! There IS a pandemic going on, after all."
+directions = ''
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -124,7 +124,7 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
-sharing_image = "82a46fb5-4a85-4643-95ca-5af2698a825f.jpg"
+sharing_image = "icon.jpg"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = ""

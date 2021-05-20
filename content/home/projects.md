@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 5
 
-title: Projects/Code
+title: Code
 subtitle: ''
 
 content:

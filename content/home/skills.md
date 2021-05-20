@@ -7,7 +7,7 @@ widget: featurette
 headless: true
 
 # Order that this section appears on the page.
-weight: 3
+weight: 4
 
 title: Skills
 subtitle:
@@ -32,11 +32,11 @@ feature:
   icon: dumbbell
   icon_pack: fas
   name: Weightlifting
-- description: 90% Finished with Atlas Shrugged
+- description: 50% Split between 2 Books
   icon: book
   icon_pack: fas
   name: Reading
-- description: 20% Chance I'm Biking Along the Charles
+- description: 20% Chance I'm Biking the Charles
   icon: biking
   icon_pack: fas
   name: Biking
