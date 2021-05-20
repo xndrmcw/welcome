@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 5
 
-title: Code
-subtitle: ''
+title: Project Associated Code
+subtitle: The code associated with some of my projects! I don't regularly update this, because I tend to just post my code to GitHub, but if you're interested, take a look at some of my code by clicking on any of these posts!
 
 content:
   # Page type to display. E.g. project.
