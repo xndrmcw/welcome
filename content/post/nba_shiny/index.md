@@ -26,12 +26,12 @@ design:
 
 links:
 - icon: link
-  icon_pack: fab
+  icon_pack: fas
   name: Julia Wrobel's Blog Post
   url: http://juliawrobel.com/tutorials/shiny_tutorial_nba.html
 
 - icon: link
-  icon_pack: fab
+  icon_pack: fas
   name: My Shiny App!
   url: https://xndrmcw.shinyapps.io/shiny_nba/
 

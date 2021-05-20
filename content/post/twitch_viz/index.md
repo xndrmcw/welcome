@@ -31,7 +31,7 @@ links:
   url: https://github.com/xndrmcw/twitch_viz
 
 - icon: retweet
-  icon_pack: fab
+  icon_pack: fas
   name: tidytuesday data
   url: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-30
 

@@ -25,13 +25,13 @@ design:
   columns: '2'
 
 links:
-- icon:
-  icon_pack: link
+- icon: link
+  icon_pack: fas
   name: Mine Cetinkaya Rundel's Blog Post
   url: http://www.citizen-statistician.org/2020/05/dipping-my-toes-in-generative-art-with-my-sister/
 
-- icon:
-  icon_pack: link
+- icon: link
+  icon_pack: fas
   name: Danielle Navarro's (creator of jasmines) Website!
   url: https://djnavarro.net/
 
