@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 3
 
-title: Posts/Visualizations
-subtitle:
+title: Posts & Visualizations
+subtitle: I love building Visualizations, and playing around with cool stuff I find online - take a look!
 
 content:
   # Page type to display. E.g. post, talk, publication...

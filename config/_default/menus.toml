@@ -14,14 +14,10 @@
   weight = 20
 
 [[main]]
-  name = "Projects"
+  name = "Code"
   url = "#projects"
   weight = 30
 
-[[main]]
-  name = "Homework"
-  url = "#homework"
-  weight = 40
 
 [[main]]
   name = "Contact"
@@ -34,3 +30,8 @@
     name = "CV"
     url = "media/resume.pdf"
     weight = 70
+
+[[main]]
+    name = "Capstone"
+    url = "media/capstone.pdf"
+    weight = 80
