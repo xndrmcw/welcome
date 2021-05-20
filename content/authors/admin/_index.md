@@ -43,7 +43,7 @@ social:
   link: https://github.com/xndrmcw
 - icon: linkedin
   icon_pack: fab
-  link: https://github.com/xndrmcw
+  link: https://www.linkedin.com/in/alexander-mcwilliams
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`,
@@ -59,7 +59,10 @@ email: ""
 highlight_name: false
 ---
 
-Hi, I'm Alexander! I'm a senior at Bentley University, and I'm currently excitedly wrapping up my bachelor's in Data Analytics. My senior capstone focuses on natural language processing, whereas my independent research projects this year have centered on fitness device data visualizations and python's computer vision capabilities. I'm looking for a role that allows me to exercise my quantitative and qualitative strengths at a company which fosters growth in its employees and rewards dedication and diligence.
+Hi, I'm Alexander! I'm a recent graduate of Bentley University, where I just wrapped up my bachelor's degree in Data Analytics. My senior capstone focused on natural language processing using RStudio, and it was a great learning experience. If you'd like to learn more about it, a link to a full PDF can be found below!
+
+During my last semester, I was also research affiliate at M.I.T., where I used Google BigQuery to pull data from a large hospital dataset. Under professor Reagan Mozer, my capstone advisor, I also learned to clean + pre-process the aforementioned text data using RStudio. Now that I'm graduated, I'm looking for a role that allows me to exercise my quantitative and qualitative strengths at a company which fosters growth in its employees and rewards dedication and diligence.
 
 
 {{< icon name="download" pack="fas" >}} If you'd like, take a look at my {{< staticref "media/resume.pdf" "newtab" >}}resumé!{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Or, if you have a second, my {{< staticref "media/resume.pdf" "newtab" >}}capstone!{{< /staticref >}}
