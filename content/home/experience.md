@@ -7,7 +7,7 @@ widget: experience
 headless: true
 
 # Order that this section appears on the page.
-weight: 4
+weight: 2
 
 title: Experience
 subtitle:
@@ -41,7 +41,7 @@ experience:
     description: |
      -	Developed a comprehensive Honors Capstone project focused on text analysis & Natural Language Processing.
      -	Analyzed reddit.com/r/movies comment data using R-Studio - developed an annotated guide for beginners. Full capstone report can be found on  website.
-     
+
   - title: Independent Researcher
     company: Whatever room I'm sitting in!
     company_url: ''
