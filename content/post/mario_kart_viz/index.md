@@ -57,11 +57,17 @@ I went for something a bit more subtle this time - most of my past visualization
 ## I created three graphs! Hopefully they're self-explanatory.
 ---
 <img src="graph1.png">
+
 ---
+
 <img src="graph2.png">
+
 ---
+
 <img src="graph3.png">
+
 ---
+
 The biggest struggle I had with this visualization was probably the dataframe work. I had to manipulate some of the columns, and it was a lot of work I'd never done before. It was fun, though! A nice challenge. I had to write my first ever StackOverflow question! It was breathtaking. Jokes aside, it felt cool to be a part of that community. I tried to give back (by answering a question) but most of the stuff people need help with is way above my paygrade. Oh well!
 
 ## Thanks for reading, if you did!
